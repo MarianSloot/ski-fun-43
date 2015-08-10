@@ -1,0 +1,147 @@
+.inhoud {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.header__menu {
+  display: none;
+}
+
+
+@media screen and (max-width: 600px) {
+  .header__logo {
+    height: 48px;
+    margin-right: 0.5em;
+  }
+
+  .nav {
+    z-index: 10;
+    background-color: #B5D2DD;
+    width: 300px;
+    position: absolute;
+    /* This trasform moves the drawer off canvas. */
+    -webkit-transform: translate(-300px, 0);
+    transform: translate(-300px, 0);
+    /* Optionally, we animate the drawer. */
+    transition: transform 0.3s ease;
+  }
+  .nav.open {
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0);
+  }
+  .nav__item {
+    display: list-item;
+    border-bottom: 1px solid #E0E0E0;
+    width: 100%;
+    text-align: left;
+  }
+  .header__menu {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    padding: 1em;
+  }
+  .header__menu svg {
+    width: 32px;
+    fill: #E0E0E0;
+  }
+}
+
+@media screen and (min-width: 601px)  {
+	.reis__kop {
+		order:-1;
+		width: 100%;
+	}
+
+
+
+	.reis1 {
+        display: flex;
+        flex-wrap: wrap;
+		order: 0;
+		width: 100%;
+	}
+
+    .reis2 {
+    	display: flex;
+    	flex-wrap: wrap;
+    	order: 1;
+    	width: 100%;
+    }
+
+    .voorWie {
+    	order: 2;
+    	width: 50%;
+    }
+
+    .ervaringen {
+    	order: 3;
+    	width: 50%
+    }
+
+    .beschrijving1 {
+    	width: 50%;
+    }
+
+    .beeld1 {
+    	float: right;
+    }
+
+    .beschrijving2 {
+    	width: 50%;
+    	order: 1;
+    }
+
+    .beeld2 {
+    	order: -1;
+    }
+
+}
+
+
+@media screen and (min-width: 900px) {
+  main, .header__inner, .nav, .inhoud {
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .reis__kop {
+		order:-1;
+		width: 100%;
+	}
+
+
+
+	.reis1 {
+		order: 0;
+		width: 50%;
+	}
+
+    .reis2 {
+    	order: 1;
+    	width: 50%;
+    }
+
+    .beschrijving1 {
+    	width: 100%;
+    }
+
+    .beschrijving2  {
+    	width: 100%;
+    }
+
+    .voorWie {
+    	order: 2;
+    	width: 70%;
+    }
+
+    .ervaringen {
+    	order: 3;
+    	width: 30%
+    }
+
+
+
+}
+}

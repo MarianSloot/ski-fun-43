@@ -10,7 +10,7 @@
 
 @media screen and (max-width: 600px) {
   .header__logo {
-    height: 48px;
+    height: 80px;
     margin-right: 0.5em;
   }
 
@@ -20,8 +20,8 @@
     width: 300px;
     position: absolute;
     /* This trasform moves the drawer off canvas. */
-    -webkit-transform: translate(-300px, 0);
-    transform: translate(-300px, 0);
+    -webkit-transform: translate(-320px, 0);
+    transform: translate(-320px, 0);
     /* Optionally, we animate the drawer. */
     transition: transform 0.3s ease;
   }
@@ -45,9 +45,68 @@
     width: 32px;
     fill: #E0E0E0;
   }
+
+  .beeld1, .beeld2 {
+    display: none;
+  }
 }
 
-@media screen and (min-width: 601px)  {
+@media screen and (min-width: 601px) and (max-width: 700px) {
+    .reis__kop {
+        order:-1;
+        width: 100%;
+    }
+
+    .reis1 {
+        display: flex;
+        flex-wrap: wrap;
+        order: 0;
+        width: 100%;
+
+    }
+
+    .reis2 {
+        display: flex;
+        flex-wrap: wrap;
+        order: 1;
+        width: 100%;
+    }
+
+    .voorWie {
+        order: 2;
+        width: 50%;
+    }
+
+    .ervaringen {
+        order: 3;
+        width: 50%
+    }
+
+    .beschrijving1 {
+        width: 100%;
+    }
+
+    .beeld1 {
+        float: right;
+
+
+    }
+
+    .beschrijving2 {
+        width: 100%;
+        order: 1;
+    }
+
+    .beeld2 {
+        order: 10;
+
+    }
+
+}
+
+}
+
+@media screen and (min-width: 701px)  {
 	.reis__kop {
 		order:-1;
 		width: 100%;
@@ -59,40 +118,46 @@
         display: flex;
         flex-wrap: wrap;
 		order: 0;
-		width: 100%;
+		width: 50%;
+
 	}
 
     .reis2 {
     	display: flex;
     	flex-wrap: wrap;
     	order: 1;
-    	width: 100%;
+    	width: 50%;
     }
 
     .voorWie {
     	order: 2;
-    	width: 50%;
+    	width: 70%;
     }
 
     .ervaringen {
     	order: 3;
-    	width: 50%
+    	width: 30%
     }
 
     .beschrijving1 {
-    	width: 50%;
+        order: -1;
+    	width: 100%;
     }
 
     .beeld1 {
-    	float: right;
+         margin-left: 15px;
+         float: right;
+         order: 1;
+
     }
 
     .beschrijving2 {
-    	width: 50%;
+    	width: 100%;
     	order: 1;
     }
 
     .beeld2 {
+         margin-right: 15px;
     	order: -1;
     }
 

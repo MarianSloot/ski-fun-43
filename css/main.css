@@ -7,12 +7,15 @@
 
 /* oude ontwerp:
 body   background-color:  #B5D2DD ;  /* 181 210 221 rgb
+#70afe2
+#3a74b3
+#0e538e
 
 background-color: rgba(53, 110, 165, .25);  /*kleur lucht #356EA5 */
 
 body, html {
   margin: 0;
-  padding: 0;
+  padding: 0 10px;
   width: 100%;
   height: 100%;
 }
@@ -25,13 +28,13 @@ body {
 
 h1, h2, h3, h4, h5 {
   font-weight: 700;
-  margin: 10px;
+  margin: 15px 0;
 }
-
+/*
 header, nav, footer, div {
   box-sizing: border-box;
 }
-
+*/
 
 
 img, embed, object, video {
@@ -57,7 +60,11 @@ footer  {
 }
 
 .reis__kop, .reis1, .reis2, .voorWie, .ervaringen {
-	padding: 0 10px 0 10px;
+	padding: 0 20px 0 0px;
+}
+
+h2.reis__kop {
+  padding-left: 20px;
 }
 
 
@@ -68,9 +75,10 @@ footer  {
  */
 
 .header {
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
-  min-height: 56px;
-  transition: min-height 0.3s;
+  /*box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26); */
+  /*min-height: 56px;
+  transition: min-height 0.3s; */
+
 }
 
 .header__inner {
@@ -80,8 +88,8 @@ footer  {
 }
 
 .header__logo {
-  height: 72px;
-  margin-right: 1em;
+  height: 150px;
+  margin-bottom: 1em;
   vertical-align: top;
   margin-top: 12px;
 }
@@ -139,8 +147,9 @@ footer  {
  */
 
 main {
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
+  /*box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26); */
   width: 100%;
+  margin-top: 15px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -148,6 +157,10 @@ main {
 h2.reis__kop {
 	background-color: #B5D2DD;
 
+}
+
+.voorWie, .ervaringen, .reis1, .reis2 {
+  margin-top: 20px;
 }
 
 

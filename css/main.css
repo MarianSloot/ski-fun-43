@@ -11,6 +11,11 @@ body   background-color:  #B5D2DD ;  /* 181 210 221 rgb
 #3a74b3
 #0e538e
 
+logo kleuren:;
+#95d1f9  lichtstblauw
+#56a3d8  middelblauw
+#176299  donkerblauw
+
 background-color: rgba(53, 110, 165, .25);  /*kleur lucht #356EA5 */
 
 body, html {
@@ -28,7 +33,10 @@ body {
 
 h1, h2, h3, h4, h5 {
   font-weight: 700;
+}
 
+h3 {
+  font-size: 18px;
 }
 /*
 header, nav, footer, div {
@@ -43,10 +51,12 @@ img, embed, object, video {
 
 button  {
 	min-width: 48px;
-	min-height: 48px;
+	min-height: 40x;
 	border-radius: 5px;
-	background-color: #B5D2DD;
+	background-color: #56a3d8;
 	padding: 1.5em;
+  font-weight: 700;
+  color: #fff;
 }
 
 ul {
@@ -67,7 +77,6 @@ h2.reis__kop {
   padding-left: 20px;
   margin-top: 0px;
 }
-
 
 /*
  *
@@ -106,7 +115,7 @@ h2.reis__kop {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
-  background-color: #B5D2DD;
+  background-color: #56a3d8;
   border-radius: 10px;
 }
 
@@ -132,7 +141,7 @@ h2.reis__kop {
 
 .nav a {
   text-decoration: none;
-  color: #616161;
+  color: #fff;
   padding: 1.5em;
 }
 
@@ -156,7 +165,7 @@ main {
 }
 
 h2.reis__kop {
-	background-color: #B5D2DD;
+	background-color: #95d1f9;
 
 }
 
@@ -168,7 +177,13 @@ h2.reis__kop {
   margin-left: 30px;
 }
 
+h2.voorWie {
+  color: #56a3d8;
+}
 
+h2.ervaringen {
+  color: #176299;
+}
 /*
  *
  * Footer

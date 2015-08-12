@@ -16,7 +16,7 @@
 
   .nav {
     z-index: 10;
-    background-color: #B5D2DD;
+    background-color: #56a3d8;
     width: 300px;
     position: absolute;
     /* This trasform moves the drawer off canvas. */

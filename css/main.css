@@ -27,6 +27,7 @@ body, html {
 }
 
 body {
+
   font-family: 'Lato', sans-serif;
   font-size: 16px;
   color: #424242;
@@ -116,7 +117,7 @@ h2.reis__kop {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
-  background-color: #56a3d8;
+  background-color: #ffffff;
   border-radius: 10px;
 }
 
@@ -126,17 +127,24 @@ h2.reis__kop {
   margin: 0;
 }
 
+.nav__list li.vr {
+   /* doesnt work well on smaller screens
+  border-right: 1px solid #fffff0;
+  border-radius: 5px;*/
+}
+
 .nav__item {
   box-sizing: border-box;
   display: inline-block;
-  width: 19%;
+  width: 19.7%;
+  background-color: #56a3d8;
+  border-radius: 5px;
   font-size: 12px;
   font-weight: 700;
   text-align: center;
   line-height: 24px;
-  padding: 18px;
+  padding: 15px;
   text-transform: uppercase;
-
   white-space: nowrap;
 }
 
@@ -174,9 +182,29 @@ main {
   margin-right: auto;
 }
 
-h2.reis__kop {
-	background-color: #95d1f9;
+.vlakLinks {
+  background-color: #fff;
+  padding: 5px;
+  margin-right: 5px;
+  box-shadow: -0px 0px 10px #d3e9f9;
+}
 
+.vlakRechts {
+  background-color: #fff;
+  padding: 5px;
+  margin-left: 5px;
+  box-shadow: -0px 0px 10px #d3e9f9;
+}
+
+.pointer img {
+  float: left;
+  width: 50px;
+  height: 50px;
+}
+
+.pointer h2 {
+  position: relative;
+  left: 10px;
 }
 
 .voorWie, .ervaringen, .reis1, .reis2 {
@@ -187,12 +215,23 @@ h2.reis__kop {
   margin-left: 30px;
 }
 
-h2.voorWie {
+.voorWie h2{
   color: #56a3d8;
 }
 
-h2.ervaringen {
+.ervaringen h2 {
   color: #176299;
+}
+
+
+
+.verder img{
+   width: 100px;
+}
+
+.verder p {
+  font-size: 12px;
+  text-align: left;
 }
 /*
  *

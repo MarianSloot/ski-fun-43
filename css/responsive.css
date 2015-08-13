@@ -9,6 +9,14 @@
 
 
 @media screen and (max-width: 600px) {
+
+  body {
+     background-image: url(../images/kristal_licht.png);
+     background-size: 150px;
+     background-position: right top;
+     background-repeat: no-repeat;
+   }
+
   .header__logo {
     height: 100px;
     margin-right: 0.5em;
@@ -56,6 +64,16 @@
 }
 
 @media screen and (min-width: 601px)  {
+
+  body {
+     background-image: url(../images/kristal_licht.png);
+     background-size: 400px;
+     background-position: right top;
+     background-repeat: no-repeat;
+  }
+
+
+
     .reis__hoofdkop {
         order: -1;
         width: 100%;
@@ -65,7 +83,7 @@
         display: flex;
         flex-wrap: wrap;
         order: 0;
-        width: 50%;
+        width: 49%;
 
     }
 
@@ -73,7 +91,7 @@
         display: flex;
         flex-wrap: wrap;
         order: 1;
-        width: 50%;
+        width: 49%;
     }
 
     .voorWie {
@@ -144,6 +162,7 @@
 
 @media screen and (min-width: 901px)  {
 
+
     main, .header__inner, .nav, .inhoud {
       width: 900px;
       margin-left: auto;
@@ -159,14 +178,14 @@
 	.reis1 {
 
 		order: 0;
-		width: 50%;
+		width: 49%;
 
 	}
 
     .reis2 {
 
     	order: 1;
-    	width: 50%;
+    	width: 49%;
     }
 
 
@@ -196,12 +215,12 @@
 
     .voorWie {
         order: 2;
-        width: 70%;
+        width: 64%;
     }
 
     .ervaringen {
         order: 3;
-        width: 30%;
+        width: 34%;
     }
 
 

@@ -110,6 +110,8 @@
         order: 3;
         width: 100%
     }
+
+
 }
 
 @media screen and (min-width: 701px)  {
@@ -217,39 +219,19 @@
 
 @media screen and (min-width: 901px)  {
 
+  body {
+    background-image: url(../images/skilandschap1b.jpg);
+    background-size: 1200px;
+    background-position: center top;
+    background-repeat: no-repeat;
+  }
+
 
     main, .header__inner, .nav, .inhoud {
       width: 900px;
       margin-left: auto;
       margin-right: auto;
     }
-
- .nav {
-
-  margin-left: auto;
-  margin-right: auto;
-  background-color: #ffffff;
-  border-radius: 10px;
-}
-
-
-
-  .nav__item {
-  box-sizing: border-box;
-  display: inline-block;
-  width: 19.7%;
-  background-color: #56a3d8;
-  border-radius: 5px;
-  font-size: 12px;
-  font-weight: 700;
-  text-align: center;
-  line-height: 24px;
-  padding: 15px;
-  text-transform: uppercase;
-  white-space: nowrap;
-}
-
-
 
 	.reis__hoofdkop {
 		order:-1;

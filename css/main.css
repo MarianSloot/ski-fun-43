@@ -28,6 +28,7 @@ body, html {
 
 body {
 
+
   font-family: 'Lato', sans-serif;
   font-size: 16px;
   line-height: 1.2em;
@@ -80,6 +81,10 @@ footer  {
 h2.reis__kop {
   padding-left: 20px;
   margin-top: 0px;
+}
+
+.tintvlak {
+  background-color: #edf3fc;
 }
 
 /*
@@ -233,6 +238,37 @@ main {
   font-size: 12px;
   text-align: left;
 }
+
+ div.hele__tabel {
+      width: 100%;
+      padding-bottom: 15px;
+      overflow-x: auto;
+      white-space: nowrap;
+    }
+
+.tabel td  {
+  padding-right: 10px;
+}
+
+.details ul {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+
+
+}
+
+.details li {
+  background-image: url(../images/kristal_opsomming.png);
+  background-repeat: no-repeat;
+  background-position: 0px 2px;
+  padding-left: 25px;
+  white-space: wrap;
+
+}
+
+
+
 /*
  *
  * Footer
@@ -243,6 +279,8 @@ footer {
   border-top: 1px solid #E0E0E0;
   padding: 1em;
   width: 100%;
+  margin-top: 40px;
+  background-color: #95d1f9;
 }
 
 footer li {
@@ -254,4 +292,8 @@ footer a {
   text-decoration: none;
   color: #333;
   padding: 1.5em;
+}
+
+footer a:hover {
+  text-decoration: underline;
 }

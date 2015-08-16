@@ -20,7 +20,7 @@ background-color: rgba(53, 110, 165, .25);  /*kleur lucht #356EA5 */
 
 body, html {
   margin: 0;
-  padding: 0 10px;
+  padding: 0 7px;
   width: 100%;
   height: 100%;
   ;
@@ -75,7 +75,7 @@ footer  {
 }
 
 .reis__kop, .reis1, .reis2, .voorWie, .ervaringen {
-	padding: 0 20px 0 0px;
+	padding: 0 5px 0 0px;
 }
 
 h2.reis__kop {
@@ -157,7 +157,7 @@ h2.reis__kop {
 #active a{
   color: #176299;
   font-weight: 900;
-  font-size: 14px;
+  font-size: 12px;
 
 }
 
@@ -189,16 +189,18 @@ main {
 
 .vlakLinks {
   background-color: #fff;
-  padding: 5px;
+  margin-bottom: 15px;
+  padding: 10px;
   margin-right: 5px;
-  box-shadow: -0px 0px 10px #d3e9f9;
+  box-shadow: -2px 2px 5px 2px #bed6f7;  /*88a9de  */
 }
 
 .vlakRechts {
   background-color: #fff;
-  padding: 5px;
+  margin-bottom: 15px;
+  padding: 10px;
   margin-left: 5px;
-  box-shadow: -0px 0px 10px #d3e9f9;
+  box-shadow: -5px  5px 5px 5px #bed6f7;
 }
 
 .pointer img {
@@ -213,11 +215,7 @@ main {
 }
 
 .voorWie, .ervaringen, .reis1, .reis2 {
-  margin-top: 20px;
-}
-
-.beeld2 {
-  margin-left: 30px;
+  margin-top: 0px;
 }
 
 .voorWie h2{
@@ -228,8 +226,6 @@ main {
   color: #176299;
 }
 
-
-
 .verder img{
    width: 100px;
 }
@@ -237,6 +233,30 @@ main {
 .verder p {
   font-size: 12px;
   text-align: left;
+}
+
+
+/*
+*
+* Reisbeschrijvingen
+*
+*/
+
+
+.vlak1Tabel {
+  background-color: #fff;
+  padding: 10px;
+  margin-bottom: 15px;
+  margin-right: 5px;
+  box-shadow: -2px 2px 5px 2px #bed6f7;  /*88a9de  */
+}
+
+.vlak2Tabel {
+  background-color: #fff;
+  padding: 10px;
+  margin-bottom: 15px;
+  margin-right: 5px;
+  box-shadow: -5px  5px 5px 5px #bed6f7;
 }
 
  div.hele__tabel {
@@ -250,12 +270,15 @@ main {
   padding-right: 10px;
 }
 
+.tabel td.nowrap {
+  white-space: nowrap;
+
+}
+
 .details ul {
   list-style-type: none;
   padding: 0px;
   margin: 0px;
-
-
 }
 
 .details li {
@@ -267,7 +290,17 @@ main {
 
 }
 
+.kleiner {
+  font-size: 14px;
+}
 
+.nadruk {
+  font-weight: 900;
+}
+
+.opsomming img{
+  padding-top: 2px;
+}
 
 /*
  *

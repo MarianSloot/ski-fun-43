@@ -1,0 +1,82 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>SKI-FUN 43+</title>
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,700,900' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,500,700,300' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
+
+  </head>
+
+  <body>
+  	<header class="header">
+  	  <div class="header__inner">
+  	  	<a href="index.html"><img class="header__logo"  src="images/Skifun43logo_kleur.png" alt="logo ski-fun 43+"></a>
+  	  	<a id="menu" class="header__menu">
+  	  	  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M2 6h20v3H2zm0 5h20v3H2zm0 5h20v3H2z"/>
+          </svg>
+  	  	</a>
+  	  </div>
+  	</header>
+
+  	<nav id="drawer" class="nav">
+      <ul class="nav__list">
+      	<li class="nav__item" ><a href="#">Skireis januari</a></li>
+      	<li class="nav__item"><a href="#">Skireis maart</a></li>
+        <li class="nav__item" id="active"><a href="#">Reis boeken</a></li>
+        <li class="nav__item"><a href="#">Reiservaringen</a></li>
+        <li class="nav__item"><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+
+  	<main >
+  	  <div class="inhoud">
+
+  	    <div >	    </div>
+
+
+        <div class="vlak2Tabel"><h2>Reis boeken</h2>
+          <p>Boek vòòr 7 december 2015. Na die datum kan alleen de kamer apart worden aangevraagd.<br>
+          De reis is vaak sneller volgeboekt dan is te voorzien, wacht daarom  niet met boeken tot op het laatste moment.<br>
+           Met kamerindelingswensen wordt zo veel mogelijk rekening gehouden. Kamertoewijzing gaat op volgorde van boeking.
+          </p>
+        </div>
+
+      </div>
+
+
+  	  <footer>
+        <ul>
+          <li><a href="#">Contact</a></li>
+          <li>Ontwikkeld door <a href="https://nl.linkedin.com/in/mariansloot" title="Webdesign">Marian Sloot</a></li>
+          <li>Logo en illustraties: <a href="#" title="Illustrator">Dan Geerlings</a></li>
+        </ul>
+  	  </footer>
+
+  	</main>
+
+  	<script>
+      /*
+       * Open the drawer when the menu ison is clicked.
+       */
+      var menu = document.querySelector('#menu');
+      var main = document.querySelector('main');
+      var drawer = document.querySelector('.nav');
+
+      menu.addEventListener('click', function(e) {
+        drawer.classList.toggle('open');
+        e.stopPropagation();
+      });
+      main.addEventListener('click', function() {
+        drawer.classList.remove('open');
+      });
+
+    </script>
+  </body>
+</html>

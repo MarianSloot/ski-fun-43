@@ -279,10 +279,140 @@
 
     }
 
-    .accomodatie {
-      order: 1;
-
+    .groep1 {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
     }
+
+    .accomodatie {
+      margin-right: 10px;
+      width: 45%;
+      order: 0;
+    }
+
+     .ligging {
+      margin-right: 10px;
+      width: 25%;
+      order: 1;
+    }
+
+     .verzorging {
+      margin-right: 10px;
+      width: 25%;
+      order: 2;
+    }
+
+
+
+    .groep2 {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .faciliteiten {
+      margin-right: 10px;
+      width: calc((100% - 30px) / 3);
+      order: 0;
+    }
+
+    .kamers {
+      margin-right: 10px;
+      width: calc((100% - 30px) / 3);
+      order: 1;
+    }
+
+    .kamerindeling {
+      margin-right: 10px;
+      width: calc((100% - 30px) / 3);
+      order: 2;
+    }
+
+
+
+    .groep3 {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .transfer {
+      margin-right: 10px;
+      width: calc((100% - 20px) / 2);
+      order: 0;
+    }
+
+    .letop {
+      margin-right: 10px;
+      width: calc((100% - 20px) / 2);
+      order: 1;
+    }
+
+
+
+   .groep4 {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .arrangement{
+      margin-right: 10px;
+      order: 0;
+    }
+
+    .inclusief {
+      margin-right: 0px;
+      width: 50%;
+      order: 1;
+    }
+
+
+
+    .groep5 {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .skihuur {
+      margin-right: 10px;
+      width: 100%
+      order: 0;
+    }
+
+    .skipassen {
+      margin-right: 0px;
+      width: 55%;
+      order: 1;
+    }
+
+    .toeslag {
+      margin-right: 0px;
+      width: 45%;
+      order: 2;
+    }
+
+
+
+    .groep6 {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .reductie{
+      margin-right: 10px;
+      order: 0;
+    }
+
+    .extrakosten {
+      margin-right: 0px;
+      width: 50%;
+      order: 1;
+    }
+
 
 
 

@@ -82,7 +82,7 @@
         display: flex;
         flex-wrap: wrap;
         order: 0;
-        width: 99%;
+        width: 80%;
 
     }
 
@@ -90,11 +90,15 @@
         display: flex;
         flex-wrap: wrap;
         order: 1;
-        width: 99%;
+        width: 100%;
+    }
+
+    .reis2 .vlakLinks {
+      margin-left: 45px;
     }
 
     .reis__tekst {
-      padding-right: 100px;
+      padding-right: 10px;
     }
 
     .beeld1, beeld2  {
@@ -108,7 +112,11 @@
 
     .ervaringen {
         order: 3;
-        width: 100%
+        width: 90%
+    }
+
+    .ervaringen .vlakRechts {
+      margin-left: 100px;
     }
 
 
@@ -132,58 +140,67 @@
         display: flex;
         flex-wrap: wrap;
         order: 0;
-        width: 49%;
-
+        width: 45%;
     }
+
 
     .reis2 {
         display: flex;
         flex-wrap: wrap;
-        order: 1;
-        width: 49%;
+        order: 2;
+        width: 55%;
     }
 
     .voorWie {
-        order: 2;
-        width: 80%;
-        margin-right: 50px;
-        margin-left: 150px;
+        order: 1;
+        width: 55%;
+
+        margin-left: 0px;
     }
 
     .ervaringen {
         order: 3;
-        width: 50%;
-        margin-left: 50px;
-        margin-right: 50px;
+        width: 40%;
+        ;
+        margin-right: 0px;
     }
-
+/*
     .voorWie .reis__tekst{
       padding-right: 50px;
     }
-
+*/
+    .reis2 .vlakLinks  {
+      margin-left: 35px;
+    }
 
     .beschrijving1 {
         margin-bottom: 15px;
         width: 100%;
     }
 
-    .beeld1 {
-         margin-left: 15px;
-         margin-right: 15px;
-
-         order: 1;
-
-    }
 
     .beschrijving2 {
         width: 100%;
 
     }
 
-    .beeld2 {
-         margin-right: 15px;
-        order: -1;
+
+    .ietsLager {
+      margin-top: 20px;
     }
+
+    .lager {
+      margin-top: 30px;
+    }
+
+    .ietsHoger {
+      margin-bottom: 20px;
+    }
+
+    .hoger {
+      margin-bottom: 40px;
+    }
+
 
 
     /*
@@ -228,21 +245,25 @@
 
 	.reis1 {
 		order: 0;
-		width: 49%;
+		width: 43%;
+    margin-right: 10px;
 
 	}
 
+   .voorWie {
+        order: 1;
+        width: 54%;
+        /*margin-left: 35px;*/
+        margin-right: 0px;
+    }
+
     .reis2 {
-    	order: 1;
+    	order: 2;
+      margin-left: 10px;
     	width: 49%;
     }
 
-    .voorWie {
-        order: 2;
-        width: 54%;
-        margin-left: 35px;
-        margin-right: 10px;
-    }
+
 
     .ervaringen {
         order: 3;

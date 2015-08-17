@@ -203,6 +203,10 @@ main {
   box-shadow: -5px  5px 5px 5px #bed6f7;
 }
 
+.reis__hoofdkop p {
+  max-width: 700px;
+}
+
 .pointer img {
   float: left;
   width: 50px;

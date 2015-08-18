@@ -23,7 +23,7 @@ body, html {
   padding: 0 7px;
   width: 100%;
   height: 100%;
-  ;
+
 }
 
 body {
@@ -64,6 +64,22 @@ button  {
   color: #fff;
 }
 
+/*
+table {
+  width: 100%;
+
+}  */
+
+td, th {
+  text-align: left;
+  vertical-align: top;
+  padding-right: 10px;
+}
+ /*td:first-of-type {
+  padding-left: 20px;
+ }
+*/
+
 ul {
   list-style: none;
   padding: 0;
@@ -86,6 +102,19 @@ h2.reis__kop {
 .tintvlak {
   background-color: #edf3fc;
 }
+
+.bold {
+  font-weight: 900;
+}
+
+.kleiner {
+  font-size: 14px;
+}
+
+.cursief {
+  font-weight: 900;
+}
+
 
 /*
  *
@@ -139,6 +168,13 @@ h2.reis__kop {
   border-right: 1px solid #fffff0;
   border-radius: 5px;*/
 }
+
+.nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
 
 .nav__item {
   box-sizing: border-box;
@@ -263,7 +299,7 @@ main {
   box-shadow: -5px  5px 5px 5px #bed6f7;
 }
 
- div.hele__tabel {
+ .hele__tabel {
 
       width: 100%;
       padding-bottom: 15px;
@@ -273,34 +309,33 @@ main {
 
 .tabel td  {
   padding-right: 10px;
+
+
 }
 
 .tabel td.nowrap {
   white-space: nowrap;
-
+  padding-right: 10px;
 }
+
+
 
 .details ul {
   list-style-type: none;
+
   padding: 0px;
   margin: 0px;
 }
 
 .details li {
-  background-image: url(../images/kristal_opsomming.png);
+  /*background-image: url(../images/kristal_opsomming.png);
   background-repeat: no-repeat;
   background-position: 0px 2px;
-  padding-left: 25px;
+  padding-left: 25px;*/
+
+  list-style-position: inside;
   white-space: wrap;
 
-}
-
-.kleiner {
-  font-size: 14px;
-}
-
-.nadruk {
-  font-weight: 900;
 }
 
 .opsomming img{

@@ -61,6 +61,102 @@
   .beeld1, .beeld2 {
     display: none;
   }
+
+
+    .ietsLager {
+      margin-top: 20px;
+    }
+
+    .lager {
+      margin-top: 30px;
+    }
+
+    .ietsHoger {
+      margin-bottom: 20px;
+    }
+
+    .hoger {
+      margin-bottom: 40px;
+    }
+
+/*reisbeschrijvingen*/
+
+    .geenTabel td {
+      display: block;
+      padding-right: 10px;
+    /*  white-space: nowrap; */
+    }
+
+    .geenTabel td:last-of-type {
+      padding-right: 5px;
+      padding-left: 22px;
+    }
+
+
+    .groep4 {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .arrangement{
+      margin-right: 10px;
+      order: 0;
+    }
+
+    .inclusief {
+      margin-right: 0px;
+      width: 90%;
+      order: 1;
+    }
+
+    /* ski */
+
+    .groep5 {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .skihuur {
+      margin-right: 0px;
+      width: 100%
+      order: 0;
+    }
+
+    .skipassen {
+      margin-right: 0px;
+      width: 100%;
+      order: 1;
+    }
+
+
+/*groep6*/
+
+   .groep6 {
+    width: 80%
+   }
+
+     .toeslag {
+      margin-right: 0px;
+      width: 100%;
+      order: 2;
+    }
+
+   .reductie{
+      margin-right: 10px;
+      width: 100%;
+      order: 0;
+    }
+
+    .extrakosten {
+      margin-right: 0px;
+      width: 100%;
+      order: 1;
+    }
+
+
+
 }
 
 
@@ -120,6 +216,111 @@
     }
 
 
+    /*reisbeschrijvingen*/
+
+    .geenTabel td {
+      display: block;
+      padding-right: 10px;
+    /*  white-space: nowrap; */
+    }
+
+    .geenTabel td:last-of-type {
+      padding-left: 22px;
+      padding-right: 5px;
+    }
+
+
+        .groep4 {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .arrangement{
+      margin-right: 10px;
+      order: 0;
+    }
+
+    .inclusief {
+      margin-right: 0px;
+      width: 70%;
+      order: 1;
+    }
+
+    /* ski */
+
+    .groep5 {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .skihuur {
+      margin-right: 0px;
+      width: 80%
+      order: 0;
+    }
+
+    .skipassen {
+      margin-right: 0px;
+      width: 90%;
+      order: 1;
+    }
+
+
+      .groep6 {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+
+    .toeslag {
+      margin-right: 0px;
+      width: 70%;
+      order: 2;
+    }
+
+
+    .reductie{
+      margin-right: 10px;
+      width: 40%;
+      order: 0;
+    }
+
+    .reductie .geenTabel td {
+       display: block;
+      padding-right: 10px;
+    white-space: nowrap;
+    }
+
+    .reductie .geenTabel td:last-of-type {
+      padding-left: 22px;
+    }
+
+    .extrakosten {
+      margin-right: 0px;
+      width: 48%;
+      order: 1;
+    }
+
+    .extrakosten .geenTabel td {
+       display: block;
+      padding-right: 10px;
+    /*  white-space: nowrap; */
+    }
+
+    .extrakosten .geenTabel td:last-of-type {
+      padding-left: 22px;
+    }
+
+
+
+
+
+
+
+
 }
 
 @media screen and (min-width: 701px)  {
@@ -164,11 +365,7 @@
         ;
         margin-right: 0px;
     }
-/*
-    .voorWie .reis__tekst{
-      padding-right: 50px;
-    }
-*/
+
     .reis2 .vlakLinks  {
       margin-left: 35px;
     }
@@ -181,25 +378,8 @@
 
     .beschrijving2 {
         width: 100%;
-
     }
 
-
-    .ietsLager {
-      margin-top: 20px;
-    }
-
-    .lager {
-      margin-top: 30px;
-    }
-
-    .ietsHoger {
-      margin-bottom: 20px;
-    }
-
-    .hoger {
-      margin-bottom: 40px;
-    }
 
 
 
@@ -214,6 +394,109 @@
       max-width: 700px;
     }
 
+
+
+    .groep1 {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+     .accomodatie {
+      margin-right: 10px;
+      width: 45%;
+      order: 0;
+    }
+
+     .tweeInEen {
+      width: 50%;
+      order: 1;
+     }
+
+     .ligging {
+      margin-right: 10px;
+      width: 100%;
+      order: 1;
+    }
+
+     .verzorging {
+      margin-right: 10px;
+      width: 100%;
+      order: 2;
+    }
+
+
+
+    .groep2 {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .faciliteiten {
+      margin-right: 10px;
+      width: calc((100% - 30px) / 3);
+      order: 0;
+    }
+
+    .kamers {
+      margin-right: 10px;
+      width: calc((100% - 30px) / 3);
+      order: 1;
+    }
+
+    .kamerindeling {
+      margin-right: 10px;
+      width: calc((100% - 30px) / 3);
+      order: 2;
+    }
+
+
+    .groep3 {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .transfer {
+      margin-right: 10px;
+      width: calc((100% - 20px) / 2);
+      order: 0;
+    }
+
+    .letop {
+      margin-right: 10px;
+      width: calc((100% - 20px) / 2);
+      order: 1;
+    }
+
+
+
+
+    .groep6 {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+     .toeslag {
+      margin-right: 0px;
+      width: 80%;
+      order: 0;
+    }
+
+
+
+    .reductie{
+      margin-right: 10px;
+      order: 1;
+    }
+
+    .extrakosten {
+      margin-right: 0px;
+      width: 50%;
+      order: 2;
+    }
 
 }
 
@@ -294,33 +577,65 @@
     * Reisbeschrijvingen
     *
     */
+}
+
+@media screen and (min-width: 1201px)  {
+
+  body {
+    background-image: url(../images/skilandschap1b.jpg);
+    background-size: 1500px;
+    background-position: center top;
+    background-repeat: no-repeat;
+  }
+
+
+    main, .header__inner, .nav, .inhoud {
+      width: 1200px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+
+  /*
+    *
+    * Reisbeschrijvingen
+    *
+    */
+
 
     .skigebied {
-      order: 0;
+      width: 45%;
+      margin-right: 20px;
 
     }
 
-    .groep1 {
-      width: 100%;
+   .groep1 {
+      width: 48%;
+
       display: flex;
       flex-wrap: wrap;
     }
 
-    .accomodatie {
+     .accomodatie {
       margin-right: 10px;
-      width: 45%;
+      width: 100%;
       order: 0;
     }
 
+     .tweeInEen {
+      width: 100%;
+      order: 1;
+     }
+
      .ligging {
       margin-right: 10px;
-      width: 25%;
+      width: 70%;
       order: 1;
     }
 
      .verzorging {
       margin-right: 10px;
-      width: 25%;
+      width: 90%;
       order: 2;
     }
 
@@ -328,6 +643,7 @@
 
     .groep2 {
       width: 100%;
+
       display: flex;
       flex-wrap: wrap;
     }
@@ -351,7 +667,6 @@
     }
 
 
-
     .groep3 {
       width: 100%;
       display: flex;
@@ -371,25 +686,27 @@
     }
 
 
-
-   .groep4 {
+    .groep4 {
       width: 100%;
       display: flex;
       flex-wrap: wrap;
     }
 
     .arrangement{
+      width: 60%;
       margin-right: 10px;
       order: 0;
     }
 
     .inclusief {
       margin-right: 0px;
-      width: 50%;
+      width: 35%;
       order: 1;
     }
 
 
+
+     /* ski */
 
     .groep5 {
       width: 100%;
@@ -398,21 +715,15 @@
     }
 
     .skihuur {
-      margin-right: 10px;
-      width: 100%
+      margin-right: 20px;
+      width: 45%
       order: 0;
     }
 
     .skipassen {
       margin-right: 0px;
-      width: 55%;
+      width: 40%;
       order: 1;
-    }
-
-    .toeslag {
-      margin-right: 0px;
-      width: 45%;
-      order: 2;
     }
 
 
@@ -423,20 +734,24 @@
       flex-wrap: wrap;
     }
 
+
+    .toeslag {
+      margin-right: 0px;
+      width: 35%;
+      order: 0;
+    }
+
     .reductie{
       margin-right: 10px;
-      order: 0;
+      width: 20%
+      order: 1;
     }
 
     .extrakosten {
       margin-right: 0px;
-      width: 50%;
-      order: 1;
+      width: 35%;
+      order: 2;
     }
 
-
-
-
 }
-
 

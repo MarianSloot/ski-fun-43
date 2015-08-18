@@ -7,6 +7,27 @@
   display: none;
 }
 
+   .geenTabel td:last-of-type {
+      padding-right: 0px;
+      padding-left: 0px;
+    }
+
+
+
+@media screen and (max-width: 400px) {
+
+   .geenTabel td {
+      display: block;
+      padding-right: 10px;
+    /*  white-space: nowrap; */
+    }
+
+    .geenTabel td:last-of-type {
+      padding-right: 5px;
+      padding-left: 22px;
+    }
+
+}
 
 @media screen and (max-width: 600px) {
 
@@ -81,16 +102,37 @@
 
 /*reisbeschrijvingen*/
 
-    .geenTabel td {
-      display: block;
-      padding-right: 10px;
-    /*  white-space: nowrap; */
-    }
+   .vlak1Tabel {
+    box-shadow: none;
+   }
 
-    .geenTabel td:last-of-type {
-      padding-right: 5px;
-      padding-left: 22px;
-    }
+     .groep1 {
+       display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+     }
+
+     .accomodatie {
+      width: 100%;
+      order: 0;
+     }
+
+     .tweeInEen {
+      width: 100%;
+      order: 1;
+     }
+
+     .ligging {
+      width: 100%
+      order: 0;
+     }
+
+     .verzorging {
+      width: 100%;
+      order: 1;
+     }
+
+
 
 
     .groep4 {
@@ -100,14 +142,25 @@
     }
 
     .arrangement{
-      margin-right: 10px;
+      margin-right: 0px;
       order: 0;
     }
 
     .inclusief {
       margin-right: 0px;
-      width: 90%;
+      width: 100%;
       order: 1;
+    }
+
+    .arrangement .geenTabel td {
+      display: block;
+      padding-right: 10px;
+    /*  white-space: nowrap; */
+    }
+
+    .geenTabel td:last-of-type {
+      padding-right: 5px;
+      padding-left: 22px;
     }
 
     /* ski */
@@ -130,29 +183,44 @@
       order: 1;
     }
 
+   .skipassen .geenTabel td {
+      display: block;
+      padding-right: 10px;
+    /*  white-space: nowrap; */
+    }
+
+    .geenTabel td:last-of-type {
+      padding-right: 5px;
+      padding-left: 22px;
+    }
+
 
 /*groep6*/
 
    .groep6 {
-    width: 80%
+    width: 100%
    }
 
      .toeslag {
       margin-right: 0px;
       width: 100%;
-      order: 2;
+      order: 0;
     }
 
    .reductie{
       margin-right: 10px;
       width: 100%;
-      order: 0;
+      order: 1;
     }
 
     .extrakosten {
       margin-right: 0px;
       width: 100%;
-      order: 1;
+      order: 2;
+    }
+
+    .lijnOnder .extrakosten {
+      border-style: none;
     }
 
 
@@ -218,19 +286,52 @@
 
     /*reisbeschrijvingen*/
 
-    .geenTabel td {
-      display: block;
-      padding-right: 10px;
-    /*  white-space: nowrap; */
-    }
 
-    .geenTabel td:last-of-type {
-      padding-left: 22px;
-      padding-right: 5px;
-    }
+   .vlak1Tabel {
+    box-shadow: none;
+   }
+
+      .groep1 {
+         display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+     }
+
+     .accomodatie {
+      width: 100%;
+      order: 0;
+
+     }
+
+     .tweeInEen {
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+      order: 1;
+     }
+
+     .ligging {
+      width: 40%
+      order: 0;
+     }
+
+     .verzorging {
+      width: 45%;
+      order: 1;
+     }
+
+      .groep2 {
+      width: 80%;
+     }
+
+     .groep3 {
+      width: 80%;
+      margin-left: 60px;
+     }
 
 
-        .groep4 {
+
+     .groep4 {
       width: 100%;
       display: flex;
       flex-wrap: wrap;
@@ -250,13 +351,14 @@
     /* ski */
 
     .groep5 {
-      width: 100%;
+      width: 80%;
       display: flex;
       flex-wrap: wrap;
+      margin-left: 40px;
     }
 
     .skihuur {
-      margin-right: 0px;
+
       width: 80%
       order: 0;
     }
@@ -269,7 +371,7 @@
 
 
       .groep6 {
-      width: 100%;
+      width: 90%;
       display: flex;
       flex-wrap: wrap;
     }
@@ -277,9 +379,10 @@
 
     .toeslag {
       margin-right: 0px;
-      width: 70%;
-      order: 2;
+      width: 80%;
+      order: 0;
     }
+
 
 
     .reductie{
@@ -288,21 +391,29 @@
       order: 0;
     }
 
-    .reductie .geenTabel td {
-       display: block;
-      padding-right: 10px;
-    white-space: nowrap;
-    }
 
-    .reductie .geenTabel td:last-of-type {
-      padding-left: 22px;
-    }
 
     .extrakosten {
       margin-right: 0px;
       width: 48%;
-      order: 1;
+      order: 2;
     }
+
+    .reductie .geenTabel td {
+      display: block;
+      padding-right: 10px;
+    /*  white-space: nowrap; */
+    }
+
+    .reductie .geenTabel td:last-of-type {
+      padding-left: 22px;
+      padding-right: 5px;
+    }
+
+    .reductie .lijnOnder {
+      border-bottom-style: hidden;
+    }
+
 
     .extrakosten .geenTabel td {
        display: block;
@@ -380,21 +491,21 @@
         width: 100%;
     }
 
-
-
-
     /*
     *
     * Reisbeschrijvingen
     *
     */
 
+   .vlak1Tabel {
+    box-shadow: none;
+   }
+
+
     .skigebied {
       order: 0;
       max-width: 700px;
     }
-
-
 
     .groep1 {
       width: 100%;
@@ -409,6 +520,9 @@
     }
 
      .tweeInEen {
+      display: flex;
+      flex-wrap: wrap;
+
       width: 50%;
       order: 1;
      }
@@ -471,30 +585,69 @@
     }
 
 
+    .groep4 {
+      width: 90%;
+      margin-left: 50px;
+      max-width: 750px;
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .arrangement{
+      width: 100%
+      margin-right: 0px;
+      order: 0;
+    }
+
+    .inclusief {
+      margin-right: 0px;
+      width: 70%;
+      order: 1;
+    }
+
+    /* ski */
+
+    .groep5 {
+      width: 80%;
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .skihuur {
+      margin-right: 0px;
+      width: 100%
+      order: 0;
+    }
+
+    .skipassen {
+      margin-right: 0px;
+      width: 90%;
+      order: 1;
+    }
 
 
     .groep6 {
-      width: 100%;
+      width: 60%;
+      margin-left: 100px;
       display: flex;
       flex-wrap: wrap;
     }
 
      .toeslag {
       margin-right: 0px;
-      width: 80%;
+      width: 100%;
       order: 0;
     }
 
-
-
     .reductie{
       margin-right: 10px;
+      width: 30%
       order: 1;
     }
 
     .extrakosten {
       margin-right: 0px;
-      width: 50%;
+      width: 100%;
       order: 2;
     }
 
@@ -577,73 +730,19 @@
     * Reisbeschrijvingen
     *
     */
-}
-
-@media screen and (min-width: 1201px)  {
-
-  body {
-    background-image: url(../images/skilandschap1b.jpg);
-    background-size: 1500px;
-    background-position: center top;
-    background-repeat: no-repeat;
-  }
 
 
-    main, .header__inner, .nav, .inhoud {
-      width: 1200px;
-      margin-left: auto;
-      margin-right: auto;
+   .vlak1Tabel {
+    box-shadow: none;
+   }
+
+    .groep1 {
+      margin-left: 30px;
     }
-
-
-  /*
-    *
-    * Reisbeschrijvingen
-    *
-    */
-
-
-    .skigebied {
-      width: 45%;
-      margin-right: 20px;
-
-    }
-
-   .groep1 {
-      width: 48%;
-
-      display: flex;
-      flex-wrap: wrap;
-    }
-
-     .accomodatie {
-      margin-right: 10px;
-      width: 100%;
-      order: 0;
-    }
-
-     .tweeInEen {
-      width: 100%;
-      order: 1;
-     }
-
-     .ligging {
-      margin-right: 10px;
-      width: 70%;
-      order: 1;
-    }
-
-     .verzorging {
-      margin-right: 10px;
-      width: 90%;
-      order: 2;
-    }
-
-
 
     .groep2 {
       width: 100%;
-
+      margin-left: 0px;
       display: flex;
       flex-wrap: wrap;
     }
@@ -687,20 +786,196 @@
 
 
     .groep4 {
-      width: 100%;
+      width: 80%;
+      margin-left: 120px;
       display: flex;
       flex-wrap: wrap;
     }
 
     .arrangement{
-      width: 60%;
+      width: 100%;
       margin-right: 10px;
       order: 0;
     }
 
     .inclusief {
       margin-right: 0px;
+      width: 50%;
+      order: 1;
+    }
+
+
+
+     /* ski */
+
+     .groep5 {
+      margin-left: 40px;
+     }
+
+
+    .groep6 {
+      width: 100%;
+      margin-left: 0px;
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+
+    .toeslag {
+      margin-right: 0px;
       width: 35%;
+      order: 0;
+    }
+
+    .reductie{
+      margin-right: 10px;
+      width: 20%
+      order: 1;
+    }
+
+    .extrakosten {
+      margin-right: 0px;
+      width: 35%;
+      order: 2;
+    }
+
+
+
+
+}
+
+@media screen and (min-width: 1201px)  {
+
+  body {
+    background-image: url(../images/skilandschap1b.jpg);
+    background-size: 1500px;
+    background-position: center top;
+    background-repeat: no-repeat;
+  }
+
+
+    main, .header__inner, .nav, .inhoud {
+      width: 1200px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+
+  /*
+    *
+    * Reisbeschrijvingen
+    *
+    */
+
+
+   .vlak1Tabel {
+    box-shadow: none;
+   }
+
+
+    .skigebied {
+      width: 45%;
+      margin-right: 20px;
+    }
+
+
+   .groep1 {
+      width: 40%;
+      margin-left: 50px;
+
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+     .accomodatie {
+      margin-right: 10px;
+      width: 100%;
+      order: 0;
+    }
+
+     .tweeInEen {
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+      order: 1;
+     }
+
+     .ligging {
+      margin-right: 10px;
+      width: 45%;
+      order: 0;
+    }
+
+     .verzorging {
+      margin-right: 0px;
+      width: 40%;
+      order: 1;
+    }
+
+
+
+    .groep2 {
+      width: 70%;
+      margin-left: 50px;
+
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .faciliteiten {
+      margin-right: 10px;
+      width: calc((100% - 30px) / 3);
+      order: 0;
+    }
+
+    .kamers {
+      margin-right: 10px;
+      width: calc((100% - 30px) / 3);
+      order: 1;
+    }
+
+    .kamerindeling {
+      margin-right: 10px;
+      width: calc((100% - 30px) / 3);
+      order: 2;
+    }
+
+
+    .groep3 {
+      width: 70%;
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .transfer {
+      margin-right: 10px;
+      width: calc((100% - 20px) / 2);
+      order: 0;
+    }
+
+    .letop {
+      margin-right: 10px;
+      width: calc((100% - 20px) / 2);
+      order: 1;
+    }
+
+
+    .groep4 {
+      width: 60%;
+      display: flex;
+      flex-wrap: wrap;
+      margin-left: 100px;
+    }
+
+    .arrangement{
+      width: 100%;
+      margin-right: 10px;
+      order: 0;
+    }
+
+    .inclusief {
+      margin-right: 0px;
+      width: 60%;
       order: 1;
     }
 
@@ -729,7 +1004,7 @@
 
 
     .groep6 {
-      width: 100%;
+      width: 90%;
       display: flex;
       flex-wrap: wrap;
     }
@@ -749,9 +1024,15 @@
 
     .extrakosten {
       margin-right: 0px;
-      width: 35%;
+      width: 40%;
       order: 2;
     }
+
+    .groep7 {
+      max-width: 800px;
+      margin-left: 150px;
+    }
+
 
 }
 

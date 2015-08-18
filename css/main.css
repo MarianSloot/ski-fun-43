@@ -104,7 +104,7 @@ h2.reis__kop {
 }
 
 .bold {
-  font-weight: 900;
+  font-weight: 700;
 }
 
 .kleiner {
@@ -282,15 +282,23 @@ main {
 *
 */
 
-
-.vlak1Tabel {
+.groepVlak {
   background-color: #fff;
   padding: 10px;
   margin-bottom: 15px;
   margin-right: 5px;
+  box-shadow: -2px 2px 5px 2px #bed6f7;
+}
+
+.vlak1Tabel {
+  background-color: #fff;
+  padding: 5px 10px;
+  margin-bottom: 5px;
+  margin-right: 5px;
   box-shadow: -2px 2px 5px 2px #bed6f7;  /*88a9de  */
 }
 
+/*
 .vlak2Tabel {
   background-color: #fff;
   padding: 10px;
@@ -298,19 +306,31 @@ main {
   margin-right: 5px;
   box-shadow: -5px  5px 5px 5px #bed6f7;
 }
+*/
+
+.geenTabel {
+  padding-bottom: 5px;
+}
+
+.lijnOnder {
+
+  border-bottom: 1px solid #95d1f9;
+
+}
 
  .hele__tabel {
-
       width: 100%;
       padding-bottom: 15px;
       overflow-x: auto;
       white-space: nowrap;
     }
 
+    .tabel {
+      margin-bottom: 10px;
+    }
+
 .tabel td  {
   padding-right: 10px;
-
-
 }
 
 .tabel td.nowrap {

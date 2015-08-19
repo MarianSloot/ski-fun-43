@@ -12,9 +12,9 @@ body   background-color:  #B5D2DD ;  /* 181 210 221 rgb
 #0e538e
 
 logo kleuren:;
-#95d1f9  lichtstblauw
-#56a3d8  middelblauw
-#176299  donkerblauw
+#95d1f9  lichtstblauw   rgba(149, 209, 249, .5)
+#56a3d8  middelblauw    rgba(86, 163, 216, .25)
+#176299  donkerblauw    rgba(23, 98, 153, .25)
 
 background-color: rgba(53, 110, 165, .25);  /*kleur lucht #356EA5 */
 
@@ -27,11 +27,10 @@ body, html {
 }
 
 body {
-
-
   font-family: 'Lato', sans-serif;
   font-size: 16px;
   line-height: 1.2em;
+  background-color: rgba(86, 163, 216, .25);
   color: #424242;
 }
 
@@ -128,6 +127,25 @@ h2.reis__kop {
 
 .tintvlak {
   background-color: #edf3fc;
+}
+
+.tintvlakLB  {
+  background-color: rgba(149, 209, 249, .25);
+}
+
+.tintvlakMB  {
+  background-color: rgba(86, 163, 216, .25);
+}
+.tintvlakDB  {
+  background-color: rgba(23, 98, 153, .25);
+}
+
+.tintvlakWit50  {
+  background-color: rgba(255, 255, 255, .5);
+}
+
+.tintvlakWit25  {
+  background-color: rgba(255, 255, 255, .25);
 }
 
 .bold {
@@ -367,15 +385,15 @@ main {
 */
 
 .groepVlak {
-  background-color: #fff;
+
   padding: 10px;
   margin-bottom: 15px;
-  margin-right: 5px;
+  margin-right: 0px;
   box-shadow: -2px 2px 5px 2px #bed6f7;
 }
 
 .vlak1Tabel {
-  background-color: #fff;
+  /*background-color: #fff; */
   padding: 5px 10px;
   margin-bottom: 5px;
   margin-right: 5px;

@@ -84,7 +84,7 @@
   }
   .header__menu svg {
     width: 32px;
-    fill: #E0E0E0;
+    fill: #707070;
   }
 
   .beschrijving1 {
@@ -429,7 +429,7 @@
 
     .extrakosten .geenTabel td {
        display: block;
-      padding-right: 10px;
+      padding-right: 0px;
     /*  white-space: nowrap; */
     }
 
@@ -639,7 +639,7 @@
 
 
     .groep6 {
-      width: 60%;
+      width: 70%;
       margin-left: 100px;
       display: flex;
       flex-wrap: wrap;
@@ -647,7 +647,7 @@
 
      .toeslag {
       margin-right: 0px;
-      width: 100%;
+      width: 90%;
       order: 0;
     }
 
@@ -839,7 +839,7 @@
 
 
     .groep6 {
-      width: 100%;
+      width: 70%;
       margin-left: 0px;
       display: flex;
       flex-wrap: wrap;
@@ -847,20 +847,20 @@
 
 
     .toeslag {
-      margin-right: 0px;
-      width: 35%;
+      margin-right: 5px;
+      width: 60%;
       order: 0;
     }
 
     .reductie{
-      margin-right: 10px;
-      width: 20%
+      margin-right: 0px;
+      width: 38%
       order: 1;
     }
 
     .extrakosten {
       margin-right: 0px;
-      width: 35%;
+      width: 70%;
       order: 2;
     }
 

@@ -170,10 +170,7 @@
     /*  white-space: nowrap; */
     }
 
-    .geenTabel td:last-of-type {
-      padding-right: 5px;
-      padding-left: 22px;
-    }
+
 
     /* ski */
 
@@ -203,7 +200,7 @@
 
     .geenTabel td:last-of-type {
       padding-right: 5px;
-      padding-left: 22px;
+      padding-left: 17px;
     }
 
 

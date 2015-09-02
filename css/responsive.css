@@ -32,10 +32,7 @@
 @media screen and (max-width: 600px) {
 
   body {
-     background-image: url(../images/kristal_licht.png);
-     background-size: 150px;
-     background-position: right top;
-     background-repeat: no-repeat;
+
    }
 
   h1 {
@@ -51,13 +48,14 @@
   }
 
   .header__logo {
-    height: 100px;
-    margin-right: 0.5em;
+    width: 200px;
+    margin-top: 5%;
+   /* margin-right: 0.5em; */
   }
 
   .nav {
     z-index: 10;
-    background-color: #56a3d8;
+    background-color: #4794df;
     width: 300px;
     position: absolute;
     /* This trasform moves the drawer off canvas. */
@@ -240,10 +238,9 @@
 @media screen and (min-width: 601px) and (max-width: 700px) {
 
    body {
-     background-image: url(../images/kristal_licht.png);
-     background-size: 400px;
-     background-position: right top;
-     background-repeat: no-repeat;
+
+
+
   }
 
       .reis__hoofdkop {
@@ -446,10 +443,7 @@
 @media screen and (min-width: 701px)  {
 
    body {
-     background-image: url(../images/kristal_licht.png);
-     background-size: 400px;
-     background-position: right top;
-     background-repeat: no-repeat;
+
   }
 
     .reis__hoofdkop {
@@ -669,10 +663,8 @@
 @media screen and (min-width: 901px)  {
 
   body {
-    background-image: url(../images/skilandschap1b.jpg);
-    background-size: 1200px;
-    background-position: center top;
-    background-repeat: no-repeat;
+
+
   }
 
 
@@ -689,12 +681,12 @@
   }
 
 
-    main, .header__inner, .nav, .inhoud {
+  /*  main, .header__inner, .nav, .inhoud {
       width: 900px;
       margin-left: auto;
       margin-right: auto;
     }
-
+*/
 	.reis__hoofdkop {
 		order:-1;
 		width: 100%;
@@ -869,19 +861,18 @@
 @media screen and (min-width: 1201px)  {
 
   body {
-    background-image: url(../images/skilandschap1b.jpg);
-    background-size: 1500px;
-    background-position: center top;
-    background-repeat: no-repeat;
+    background-size: 1400px;
+
+
   }
 
-
+/*
     main, .header__inner, .nav, .inhoud {
       width: 1200px;
       margin-left: auto;
       margin-right: auto;
     }
-
+*/
 
   /*
     *

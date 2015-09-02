@@ -5,18 +5,14 @@
     box-sizing: border-box;
 }
 
-/* oude ontwerp:
-body   background-color:  #B5D2DD ;  /* 181 210 221 rgb
-#70afe2
-#3a74b3
-#0e538e
+/*
 
 logo kleuren:;
-#95d1f9  lichtstblauw   rgba(149, 209, 249, .5)
-#56a3d8  middelblauw    rgba(86, 163, 216, .25)
-#176299  donkerblauw    rgba(23, 98, 153, .25)
+#fff  wit   rgba(255, 255, 255, .5)     ffffff
+#4794df  middelblauw    rgba(71, 148, 223, .25)     4794df
+#21548e  donkerblauw    rgba(33, 84, 142, .25)      21548e
 
-background-color: rgba(53, 110, 165, .25);  /*kleur lucht #356EA5 */
+ */
 
 body, html {
   margin: 0;
@@ -27,12 +23,22 @@ body, html {
 }
 
 body {
+  background-image: url(../images/OpeningsPaginaBergen.jpg);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: 100%;
   font-family: 'Lato', sans-serif;
   font-size: 16px;
   line-height: 1.2em;
-  background-color: rgba(86, 163, 216, .25);
+  background-color: rgba(71, 148, 223, .25);
   color: #424242;
 }
+
+  main, .header__inner, .nav, .inhoud {
+      max-width: 1200px;
+      margin-left: auto;
+      margin-right: auto;
+    }
 
 h1, h2, h3, h4, h5 {
   font-weight: 700;
@@ -57,7 +63,7 @@ button  {
 	min-width: 48px;
 	min-height: 40x;
 	border-radius: 15px;
-	background-color: #56a3d8;
+	background-color: #4794df;
 	padding: 1.5em;
   font-weight: 700;
   color: #fff;
@@ -93,7 +99,7 @@ li {
 li:before {
   content: "•";  /*  content: "•";   \002022 */
   padding-right: 5px;
-  color: #56a3d8; /* or whatever color you prefer */
+  color: #4794df; /* or whatever color you prefer */
 }
 
 .bolletjeLB{
@@ -103,12 +109,12 @@ li:before {
 
 .bolletjeMB{
   /*  content: "• ";  */
-  color: #56a3d8;
+  color: #4794df;
 }
 
 .bolletjeDB{
   /*  content: "• ";  */
-  color: #176299;
+  color: #21548e;
 }
 
 
@@ -181,10 +187,11 @@ h2.reis__kop {
 }
 
 .header__logo {
-  height: 150px;
+  width: 40%;
   margin-bottom: 1em;
   vertical-align: top;
-  margin-top: 12px;
+  margin-top: 50px;
+  padding-left: 10%;
 }
 
 
@@ -195,10 +202,10 @@ h2.reis__kop {
  */
 
 .nav {
-  width: 100%;
+  width: 90%;
   margin-left: auto;
   margin-right: auto;
-  background-color: #56a3d8;
+  background-color: #4794df;
   border-radius: 10px;
 }
 
@@ -284,6 +291,10 @@ main {
   box-shadow: -5px  5px 5px 5px #bed6f7;
 }
 
+.reis__hoofdkop {
+  margin-top: 40px;
+}
+
 .reis__hoofdkop p {
   max-width: 700px;
   font-weight: 700;
@@ -305,11 +316,11 @@ main {
 }
 
 .voorWie h2{
-  color: #56a3d8;
+  color: #4794df;
 }
 
 .ervaringen h2 {
-  color: #176299;
+  color: #21548e;
 }
 
 .verder img{
@@ -357,7 +368,7 @@ main {
 }
 
 .close {
-  background: #56a3d8;
+  background: #4794df;
   color: #FFFFFF;
   line-height: 25px;
   position: absolute;

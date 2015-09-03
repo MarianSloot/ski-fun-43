@@ -30,7 +30,7 @@ body {
  /* font-family: 'Lato', sans-serif;  */
   font-size: 16px;
   line-height: 1.2em;
-  background-color: rgba(71, 148, 223, .25);
+ /* background-color: rgba(71, 148, 223, .25); */
   color: #424242;
 }
 
@@ -171,14 +171,14 @@ h2.reis__kop {
 }
 
 .tintvlakLB  {
-  background-color: rgba(149, 209, 249, .25);
+  background-color: rgba(71, 148, 223, .1) ;
 }
 
 .tintvlakMB  {
-  background-color: rgba(86, 163, 216, .25);
+  background-color: rgba(71, 148, 223, .25) ;
 }
 .tintvlakDB  {
-  background-color: rgba(23, 98, 153, .25);
+  background-color: rgba(33, 84, 142, .25);
 }
 
 .tintvlakWit50  {
@@ -328,7 +328,7 @@ main {
   margin-bottom: 15px;
   padding: 10px;
   margin-left: 5px;
-  box-shadow: -5px  5px 5px 5px #bed6f7;
+  box-shadow: -2px 2px 5px 2px #bed6f7;
 }
 
 .reis__hoofdkop {
@@ -435,6 +435,12 @@ main {
 *
 */
 
+.groep1, .groep3, .groep4{
+  background-color: rgba(71, 148, 223, .1);
+}
+
+
+
 .groepVlak {
 
   padding: 10px;
@@ -530,7 +536,8 @@ footer {
   padding: 1em;
   width: 100%;
   margin-top: 40px;
-  background-color: #95d1f9;
+  background-color: #4794df;
+  color: #fff;
 }
 
 footer li {
@@ -540,7 +547,7 @@ footer li {
 
 footer a {
   text-decoration: none;
-  color: #333;
+  color: #fff;
   padding: 1.5em;
 }
 

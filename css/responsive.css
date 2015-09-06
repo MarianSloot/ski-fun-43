@@ -24,8 +24,10 @@
 
     .geenTabel td:last-of-type {
       padding-right: 5px;
-      padding-left: 22px;
+      padding-left: 18px;
     }
+
+
 
 }
 
@@ -199,16 +201,7 @@
       order: 1;
     }
 
-   .skipassen .geenTabel td {
-      display: block;
-      padding-right: 10px;
-    /*  white-space: nowrap; */
-    }
 
-    .geenTabel td:last-of-type {
-      padding-right: 5px;
-      padding-left: 17px;
-    }
 
 
 /*groep6*/
@@ -420,11 +413,6 @@
     /*  white-space: nowrap; */
     }
 
-    .reductie .geenTabel td:last-of-type {
-      padding-left: 22px;
-      padding-right: 5px;
-    }
-
     .reductie .lijnOnder {
       border-bottom-style: hidden;
     }
@@ -436,9 +424,7 @@
     /*  white-space: nowrap; */
     }
 
-    .extrakosten .geenTabel td:last-of-type {
-      padding-left: 22px;
-    }
+
 
 
 
@@ -823,7 +809,7 @@
 
     .inclusief {
       margin-right: 0px;
-      width: 50%;
+      width: 70%;
       order: 1;
     }
 
@@ -938,7 +924,7 @@
 
     .groep2 {
       width: 70%;
-      margin-left: 50px;
+      margin-left: 250px;
 
       display: flex;
       flex-wrap: wrap;
@@ -964,20 +950,20 @@
 
 
     .groep3 {
-      width: 70%;
+      width: 100%;
       display: flex;
       flex-wrap: wrap;
     }
 
     .transfer {
       margin-right: 10px;
-      width: calc((100% - 20px) / 2);
+      width: 40%;
       order: 0;
     }
 
     .letop {
       margin-right: 10px;
-      width: calc((100% - 20px) / 2);
+      width: 50%;
       order: 1;
     }
 
@@ -997,7 +983,7 @@
 
     .inclusief {
       margin-right: 0px;
-      width: 60%;
+      width: 80%;
       order: 1;
     }
 

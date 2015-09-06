@@ -1,3 +1,25 @@
+
+@import url(http://weloveiconfonts.com/api/?family=iconicfill|maki);
+
+/* iconicfill */
+[class*="iconicfill-"]:before {
+  display: inline-block;
+  font-family: 'IconicFill', sans-serif;
+  width: 15px;
+}
+
+/* maki */
+[class*="maki-"]:before {
+
+  font-family: 'maki', sans-serif;
+  display: inline-block;
+  width: 15px;
+}
+
+
+
+
+
 * {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -135,13 +157,12 @@ ul {
 }
 
 li {
-  padding-left:  1em;
+ /* padding-left: 1em; */
   text-indent: -.9em;  /*  -.7em;  */
 }
 
 li:before {
-  content: "•";  /*  content: "•";   \002022 */
-  padding-right: 5px;
+  padding-right: 0px;
   color: #4794df; /* or whatever color you prefer */
 }
 
@@ -452,7 +473,7 @@ main {
 .groepVlak {
 
   padding: 10px;
-  margin-bottom: 15px;
+ /* margin-bottom: 15px;  */
   margin-right: 0px;
   /*box-shadow: -2px 2px 5px 2px #d7e4f5; */
 }
@@ -524,10 +545,6 @@ td:last-of-type {
 }
 
 .details li {
-  /*background-image: url(../images/kristal_opsomming.png);
-  background-repeat: no-repeat;
-  background-position: 0px 2px;
-  padding-left: 25px;*/
 
   list-style-position: inside;
   white-space: wrap;

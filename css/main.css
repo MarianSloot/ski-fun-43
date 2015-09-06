@@ -12,6 +12,10 @@ logo kleuren:;
 #4794df  middelblauw    rgba(71, 148, 223, .25)     4794df
 #21548e  donkerblauw    rgba(33, 84, 142, .25)      21548e
 
+lucht kleurverloop:
+bovenin: #a2c2eb;
+onderin: #d7e4f5;
+
  */
 
 body, html {
@@ -71,9 +75,7 @@ h2 {
 }
 
 
-}
-/*
-h3 {
+h4 {
   font-size: 18px;
 }
 /*
@@ -87,6 +89,12 @@ p {
 
 }
 
+.condensed {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 20px;
+}
 
 img, embed, object, video {
 	max-width: 100%;
@@ -137,10 +145,7 @@ li:before {
   color: #4794df; /* or whatever color you prefer */
 }
 
-.bolletjeLB{
-  /*  content: "• ";  */
-  color: #95d1f9;
-}
+
 
 .bolletjeMB{
   /*  content: "• ";  */
@@ -162,6 +167,7 @@ footer  {
 }
 
 h2.reis__kop {
+  color: #4794df;
   padding-left: 0px;
   margin-top: 10px;
 }
@@ -320,7 +326,7 @@ main {
   margin-bottom: 15px;
   padding: 10px;
   margin-right: 5px;
-  box-shadow: -2px 2px 5px 2px #bed6f7;  /*88a9de  */
+  box-shadow: -2px 2px 5px 2px #d7e4f5;  /*88a9de  */
 }
 
 .vlakRechts {
@@ -328,7 +334,7 @@ main {
   margin-bottom: 15px;
   padding: 10px;
   margin-left: 5px;
-  box-shadow: -2px 2px 5px 2px #bed6f7;
+  box-shadow: -2px 2px 5px 2px #d7e4f5;
 }
 
 .reis__hoofdkop {
@@ -337,29 +343,24 @@ main {
 
 .reis__hoofdkop p {
   max-width: 700px;
+ /* font-size: 18px;
   font-weight: 700;
+  line-height: 1.2em;  */
 }
 
-.pointer img {
-  float: left;
-  width: 50px;
-  height: 50px;
-}
 
-.pointer h2 {
-  position: relative;
-  left: 10px;
+
+.reis__hoofdkop img {
+  float: right;
+  width: 100px;
+  height: 100px;
 }
 
 .voorWie, .ervaringen, .reis1, .reis2 {
   margin-top: 0px;
 }
 
-.voorWie h2{
-  color: #4794df;
-}
-
-.ervaringen h2 {
+.voorWie h2, .ervaringen h2 {
   color: #21548e;
 }
 
@@ -368,7 +369,8 @@ main {
 }
 
 .verder p {
-  font-size: 12px;
+  font-family: 'Faster One', sans-serif;
+  font-size: 20px;
   text-align: left;
 }
 
@@ -402,9 +404,9 @@ main {
   padding: 5px 20px 13px 20px;
   border-radius: 10px;
   background: #fff;
-  background: -moz-linear-gradient(#fff, #95d1f9);
-  background: -webkit-linear-gradient(#fff, #95d1f9);
-  background: -o-linear-gradient(#fff, #95d1f9);
+  background: -moz-linear-gradient(#fff, #a2c2eb);
+  background: -webkit-linear-gradient(#fff, #a2c2eb);
+  background: -o-linear-gradient(#fff, #a2c2eb);
 }
 
 .close {
@@ -435,7 +437,7 @@ main {
 *
 */
 
-.groep1, .groep3, .groep4{
+.groep1, .groep2, .groep4{
   background-color: rgba(71, 148, 223, .1);
 }
 
@@ -446,7 +448,12 @@ main {
   padding: 10px;
   margin-bottom: 15px;
   margin-right: 0px;
-  box-shadow: -2px 2px 5px 2px #bed6f7;
+  box-shadow: -2px 2px 5px 2px #d7e4f5;
+}
+
+.groepVlak h3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
 }
 
 .vlak1Tabel {
@@ -454,7 +461,7 @@ main {
   padding: 5px 10px;
   margin-bottom: 5px;
   margin-right: 5px;
-  box-shadow: -2px 2px 5px 2px #bed6f7;  /*88a9de  */
+  box-shadow: -2px 2px 5px 2px #d7e4f5;  /*88a9de  */
 }
 
 /*

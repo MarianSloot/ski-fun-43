@@ -169,7 +169,7 @@ footer  {
 h2.reis__kop {
   color: #4794df;
   padding-left: 0px;
-  margin-top: 10px;
+  margin-top: 0px;
 }
 
 .tintvlak {
@@ -322,19 +322,17 @@ main {
 }
 
 .vlakLinks {
-  background-color: #fff;
   margin-bottom: 15px;
   padding: 10px;
   margin-right: 5px;
-  box-shadow: -2px 2px 5px 2px #d7e4f5;  /*88a9de  */
+ /* box-shadow: -2px 2px 5px 2px #d7e4f5;  /*88a9de  */
 }
 
 .vlakRechts {
-  background-color: #fff;
   margin-bottom: 15px;
   padding: 10px;
   margin-left: 5px;
-  box-shadow: -2px 2px 5px 2px #d7e4f5;
+ /* box-shadow: -2px 2px 5px 2px #d7e4f5;  8?
 }
 
 .reis__hoofdkop {
@@ -355,13 +353,20 @@ main {
   width: 100px;
   height: 100px;
 }
-
+/*
 .voorWie, .ervaringen, .reis1, .reis2 {
   margin-top: 0px;
+}  */
+
+.voorWie h2 {
+  color: #21548e;
+
 }
 
-.voorWie h2, .ervaringen h2 {
+.ervaringen h2 {
+  text-indent: 40px;
   color: #21548e;
+
 }
 
 .verder img{
@@ -437,10 +442,11 @@ main {
 *
 */
 
+/*
 .groep1, .groep2, .groep4{
   background-color: rgba(71, 148, 223, .1);
 }
-
+*/
 
 
 .groepVlak {
@@ -448,7 +454,7 @@ main {
   padding: 10px;
   margin-bottom: 15px;
   margin-right: 0px;
-  box-shadow: -2px 2px 5px 2px #d7e4f5;
+  /*box-shadow: -2px 2px 5px 2px #d7e4f5; */
 }
 
 .groepVlak h3 {

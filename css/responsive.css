@@ -97,6 +97,11 @@
     display: none;
   }
 
+  .vlakLinks, .vlakRechts {
+    margin-bottom: 0px;
+
+  }
+
 
     .ietsLager {
       margin-top: 20px;

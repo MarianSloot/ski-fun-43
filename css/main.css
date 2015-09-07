@@ -96,6 +96,18 @@ h2 {
    letter-spacing: 0.05em;*/
 }
 
+.groep1 h3, .groep2 h3, .transfer h3 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+}
+
+.groep4 h3, .groep6 h3 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 500;
+  font-variant: uppercase;
+
+}
+
 
 h4 {
   font-size: 18px;
@@ -168,12 +180,12 @@ li:before {
 
 
 
-.bolletjeMB{
+.MB{
   /*  content: "• ";  */
   color: #4794df;
 }
 
-.bolletjeDB{
+.DB{
   /*  content: "• ";  */
   color: #21548e;
 }
@@ -478,10 +490,7 @@ main {
   /*box-shadow: -2px 2px 5px 2px #d7e4f5; */
 }
 
-.groepVlak h3 {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 500;
-}
+
 
 .vlak1Tabel {
   /*background-color: #fff; */

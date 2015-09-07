@@ -16,10 +16,6 @@
   width: 15px;
 }
 
-
-
-
-
 * {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -96,6 +92,18 @@ h2 {
    letter-spacing: 0.05em;*/
 }
 
+h1 {text-align: center;
+}
+
+h1:before, h1:after {
+  font-family: 'maki', sans-serif;
+  content: "\e836";
+  color: #4794df;
+  padding: 10px;
+}
+
+
+
 .groep1 h3, .groep2 h3, .transfer h3 {
   font-family: 'Oswald', sans-serif;
   font-weight: 400;
@@ -108,6 +116,15 @@ h2 {
 
 }
 
+.reis__hoofdkop h4 {
+  text-align: center;
+}
+
+.reis__hoofdkop h4:before, .reis__hoofdkop h4:after{
+  content: "⁓ "; /*&#8275";   Swung Dash U+2053   http://unicode-table.com/en/2053/ */
+  font-weight: 300;
+  padding: 5px;
+}
 
 h4 {
   font-size: 18px;
@@ -121,6 +138,13 @@ header, nav, footer, div {
 p {
   font-family: 'Roboto', sans-serif;
 
+}
+
+.groep1 p:before, .groep2 p:before {
+  content: "❄ ❄ ";
+  text-align: center;
+  color: #4794df;
+  font-size: 20px;
 }
 
 .condensed {

@@ -15,6 +15,9 @@
 
 
 @media screen and (max-width: 400px) {
+  .reis__hoofdkop {
+    margin-top: 6%;
+   }
 
    .geenTabel td {
       display: block;
@@ -90,6 +93,7 @@
     width: 32px;
     fill: #707070;
   }
+
 
   .beschrijving1 {
       margin-bottom: 15px;
@@ -240,15 +244,15 @@
 @media screen and (min-width: 601px) and (max-width: 700px) {
 
    body {
-
-
-
   }
 
       .reis__hoofdkop {
         order: -1;
         width: 100%;
+        margin-top: 2%;
     }
+
+
 
         .reis1 {
         display: flex;
@@ -444,6 +448,7 @@
     .reis__hoofdkop {
         order: -1;
         width: 100%;
+        margin-top: 2%;
     }
 
     .reis1 {
@@ -686,7 +691,10 @@
 	.reis__hoofdkop {
 		order:-1;
 		width: 100%;
+
 	}
+
+
 
 
 	.reis1 {
@@ -870,6 +878,15 @@
       margin-right: auto;
     }
 */
+  .header__logo {
+    margin-top: 8%;    /*50px; */
+    padding-left: 10%;
+   }
+
+   .reis__hoofdkop {
+    margin-top: 70px;
+   }
+
 
   /*
     *

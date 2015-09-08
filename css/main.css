@@ -92,16 +92,18 @@ h2 {
    letter-spacing: 0.05em;*/
 }
 
-h1 {text-align: center;
+h1 {
+  text-align: center;
 }
 
+/*
 h1:before, h1:after {
   font-family: 'maki', sans-serif;
   content: "\e836";
   color: #4794df;
   padding: 10px;
 }
-
+*/
 
 
 .groep1 h3, .groep2 h3, .transfer h3 {
@@ -116,9 +118,6 @@ h1:before, h1:after {
 
 }
 
-.reis__hoofdkop h4 {
-  text-align: center;
-}
 
 .reis__hoofdkop h4:before, .reis__hoofdkop h4:after{
   content: "⁓ "; /*&#8275";   Swung Dash U+2053   http://unicode-table.com/en/2053/ */
@@ -128,6 +127,28 @@ h1:before, h1:after {
 
 h4 {
   font-size: 18px;
+}
+
+ .reis__hoofdkop h4  {
+  text-align: center;
+
+  border-top: dashed;
+  border-bottom: dashed;
+  border-width: 1px;
+  margin-left: 20%;
+  margin-right: 20%;
+  padding: 10px 0px;
+}
+
+.vlakLinks h4 {
+  text-align: center;
+
+  border-top: dashed;
+  border-bottom: dashed;
+  border-width: 1px;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding: 10px 0px;
 }
 /*
 header, nav, footer, div {
@@ -288,7 +309,7 @@ h2.reis__kop {
   width: 40%;
   margin-bottom: 1em;
   vertical-align: top;
-  margin-top: 50px;
+  margin-top: 5%;    /*50px; */
   padding-left: 10%;
 }
 
@@ -402,7 +423,6 @@ main {
   font-weight: 700;
   line-height: 1.2em;  */
 }
-
 
 
 .reis__hoofdkop img {

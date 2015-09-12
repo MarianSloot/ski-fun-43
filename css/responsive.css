@@ -29,12 +29,18 @@
       padding-right: 5px;
       padding-left: 18px;
     }
-
-
-
 }
 
 @media screen and (max-width: 600px) {
+     .arrangement .geenTabel td {
+      display: block;
+      padding-right: 10px;
+    /*  white-space: nowrap; */
+    }
+}
+
+
+@media screen and (max-width: 767px) {
 
   body {
 
@@ -67,9 +73,9 @@
     background-color: #4794df;
     width: 300px;
     position: absolute;
-    /* This trasform moves the drawer off canvas. */
-    -webkit-transform: translate(-320px, 0);
-    transform: translate(-320px, 0);
+    /* This transform moves the drawer off canvas. */
+    -webkit-transform: translate(-340px, 0);
+    transform: translate(-340px, 0);
     /* Optionally, we animate the drawer. */
     transition: transform 0.3s ease;
   }
@@ -80,7 +86,7 @@
   .nav__item {
     display: list-item;
     border-bottom: 1px solid #E0E0E0;
-    width: 100%;
+   width: 300px;
     text-align: left;
   }
   .header__menu {
@@ -94,6 +100,58 @@
     fill: #707070;
   }
 
+
+
+ .reis__hoofdkop {
+     order: -1;
+     width: 100%;
+     margin-top: 10%;
+ }
+
+
+        .reis1 {
+        display: flex;
+        flex-wrap: wrap;
+        order: 0;
+        width: 80%;
+
+    }
+
+    .reis2 {
+        display: flex;
+        flex-wrap: wrap;
+        order: 1;
+        width: 100%;
+    }
+
+    .reis2 .vlakLinks {
+      margin-left: 45px;
+    }
+
+    .reis__tekst {
+      padding-right: 10px;
+    }
+
+    .beeld1, beeld2  {
+      display: none;
+    }
+
+     .voorWie {
+        order: 2;
+        width: 100%;
+    }
+
+    .ervaringen {
+        order: 3;
+        width: 90%
+    }
+
+    .ervaringen .vlakRechts {
+      margin-left: 100px;
+    }
+
+
+    /*  Reisbeschrijvingen  */
 
   .beschrijving1 {
       margin-bottom: 15px;
@@ -177,11 +235,7 @@
       order: 1;
     }
 
-    .arrangement .geenTabel td {
-      display: block;
-      padding-right: 10px;
-    /*  white-space: nowrap; */
-    }
+
 
 
 
@@ -241,59 +295,11 @@
 }
 
 
-@media screen and (min-width: 601px) and (max-width: 700px) {
-
-   body {
-  }
-
-      .reis__hoofdkop {
-        order: -1;
-        width: 100%;
-        margin-top: 2%;
-    }
+@media screen and (min-width: 601px) and (max-width: 767px) {
 
 
 
-        .reis1 {
-        display: flex;
-        flex-wrap: wrap;
-        order: 0;
-        width: 80%;
 
-    }
-
-    .reis2 {
-        display: flex;
-        flex-wrap: wrap;
-        order: 1;
-        width: 100%;
-    }
-
-    .reis2 .vlakLinks {
-      margin-left: 45px;
-    }
-
-    .reis__tekst {
-      padding-right: 10px;
-    }
-
-    .beeld1, beeld2  {
-      display: none;
-    }
-
-     .voorWie {
-        order: 2;
-        width: 100%;
-    }
-
-    .ervaringen {
-        order: 3;
-        width: 90%
-    }
-
-    .ervaringen .vlakRechts {
-      margin-left: 100px;
-    }
 
 
     /*reisbeschrijvingen*/
@@ -439,48 +445,9 @@
 
 }
 
-@media screen and (min-width: 701px)  {
+@media screen and (min-width: 768px)  {
 
-   body {
-
-  }
-
-    .reis__hoofdkop {
-        order: -1;
-        width: 100%;
-        margin-top: 2%;
-    }
-
-    .reis1 {
-        display: flex;
-        flex-wrap: wrap;
-        order: 0;
-        width: 45%;
-    }
-
-
-    .reis2 {
-        display: flex;
-        flex-wrap: wrap;
-        order: 2;
-        width: 55%;
-    }
-
-    .voorWie {
-        order: 1;
-        width: 55%;
-
-        margin-left: 0px;
-    }
-
-    .ervaringen {
-        order: 3;
-        width: 40%;
-        ;
-        margin-right: 0px;
-    }
-
-    .reis2 .vlakLinks  {
+   .reis2 .vlakLinks  {
       margin-left: 35px;
     }
 
@@ -493,6 +460,7 @@
     .beschrijving2 {
         width: 100%;
     }
+
 
     /*
     *
@@ -661,25 +629,22 @@
 
 
 
-@media screen and (min-width: 901px)  {
+@media screen and (min-width: 768px)  {
 
-  body {
-
-
-  }
-
-
-  h1 {
-    font-size: 42px;
+    h1 {
+    font-size: 36px;
   }
 
   h2 {
-    font-size: 32px;
+    font-size: 30px;
   }
 
   h3 {
-    font-size: 24px;
+    font-size: 22px;
   }
+
+
+
 
 
   /*  main, .header__inner, .nav, .inhoud {
@@ -695,6 +660,37 @@
 	}
 
 
+/* uit min-width 700px gehaald
+    .reis1 {
+        display: flex;
+        flex-wrap: wrap;
+        order: 0;
+        width: 45%;
+    }
+
+
+    .reis2 {
+        display: flex;
+        flex-wrap: wrap;
+        order: 2;
+        width: 55%;
+    }
+
+    .voorWie {
+        order: 1;
+        width: 55%;
+
+        margin-left: 0px;
+    }
+
+    .ervaringen {
+        order: 3;
+        width: 40%;
+        ;
+        margin-right: 0px;
+    }
+
+*/
 
 
 	.reis1 {
@@ -867,9 +863,20 @@
 
   body {
     background-size: 1400px;
-
-
   }
+
+   h1 {
+    font-size: 42px;
+  }
+
+  h2 {
+    font-size: 32px;
+  }
+
+  h3 {
+    font-size: 24px;
+  }
+
 
 /*
     main, .header__inner, .nav, .inhoud {
@@ -882,6 +889,9 @@
     margin-top: 8%;    /*50px; */
     padding-left: 10%;
    }
+
+
+
 
    .reis__hoofdkop {
     margin-top: 70px;
@@ -1062,5 +1072,11 @@
     }
 
 
+}
+
+@media screen and (min-width: 1400px) {
+    .nav {
+    margin-left: 10%;
+   }
 }
 

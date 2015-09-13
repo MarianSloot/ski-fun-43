@@ -16,6 +16,7 @@
   width: 15px;
 }
 
+
 * {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -49,7 +50,7 @@ body {
   background-position: center top;
   background-repeat: no-repeat;
   background-size: 100%;
- /* font-family: 'Lato', sans-serif;  */
+  font-family: 'Roboto', sans-serif;  */
   font-size: 16px;
   line-height: 1.2em;
  /* background-color: rgba(71, 148, 223, .25); */
@@ -68,47 +69,18 @@ body {
     }
 
 h1, h2, h3 {
-  /*font-family: 'Maven Pro', sans-serif;
-  font-family: 'Viga', sans-serif;
-  font-family: 'Homenaje', sans-serif;
-
-
-  font-family: 'Faster One', cursive;
-  font-family: 'Play', sans-serif;
-  font-family: 'Ubuntu', sans-serif;
-  font-weight: 300; */
   font-family: 'Varela Round', sans-serif;
-
-
   line-height: 1.2em;
 }
 
 h2 {
-  /*font-family: 'Maven Pro', sans-serif;
 
-  font-family: 'Homenaje', sans-serif;
-  font-family: 'Ubuntu', sans-serif;
-  font-family: 'Play', sans-serif;
-  font-family: 'Faster One', cursive;
-  font-family: 'Play', sans-serif;
-  font-weight: 400;
-  font-family: 'Viga', sans-serif;
-   line-height: 1.1em;
-   letter-spacing: 0.05em;*/
 }
 
 h1 {
   text-align: center;
 }
 
-/*
-h1:before, h1:after {
-  font-family: 'maki', sans-serif;
-  content: "\e836";
-  color: #4794df;
-  padding: 10px;
-}
-*/
 
 
 .groep1 h3, .groep2 h3, .transfer h3 {
@@ -120,6 +92,10 @@ h1:before, h1:after {
   font-family: 'Oswald', sans-serif;
   font-weight: 500;
   font-variant: uppercase;
+}
+
+.transfer span {
+  color: #4794df;
 
 }
 
@@ -287,9 +263,12 @@ h2.reis__kop {
 }
 
 .cursief {
-  font-weight: 900;
+
 }
 
+.nowrap {
+  white-space: nowrap;
+}
 
 /*
  *
@@ -410,6 +389,7 @@ main {
   margin-right: auto;
 }
 
+
 .vlakLinks {
   margin-bottom: 15px;
   padding: 10px;
@@ -426,6 +406,7 @@ main {
 
 .reis__hoofdkop {
   margin-top: 40px;
+  margin-bottom: 20px;
 }
 
 .reis__hoofdkop p {
@@ -438,9 +419,48 @@ main {
 
 .reis__hoofdkop img {
   float: right;
-  width: 100px;
-  height: 100px;
+
 }
+
+
+/*
+onderdelen met beeld
+*/
+   .beeldBoven {
+    width: 70%;
+    max-width: 100%;
+   }
+
+    .beeld img {
+
+     /* width: 100px;  */
+    }
+
+    .verder {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .tekst {
+      width: 45%;
+      order: 0;
+    }
+
+    .beeld {
+      width: 45%;
+      order: 1;
+    }
+
+
+     .tekstenbeeld {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+
+
+
+
 /*
 .voorWie, .ervaringen, .reis1, .reis2 {
   margin-top: 0px;
@@ -458,20 +478,30 @@ main {
 }
 
 .verder img{
-   width: 100px;
+   width: 50%;
+   max-width: 100px;
 }
 
 .verder p {
-  font-family: 'Faster One', sans-serif;
+  font-family: 'Varela Round', sans-serif;
   font-size: 20px;
   text-align: left;
+}
+
+.verder a, .reis__tekst a, .transfer a {
+  text-decoration: none;
+  color: #4794df;
+}
+
+.verder a:hover, .reis__tekst a:hover, .transfer a:hover {
+  color: #21548e;
 }
 
 /* modal */
 
 .modalDialog {
   position: fixed;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Roboto', sans-serif;
   top: 0;
   right: 0;
   bottom: 0;

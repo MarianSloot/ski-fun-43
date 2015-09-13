@@ -7,10 +7,14 @@
   display: none;
 }
 
+
+
    .geenTabel td:last-of-type {
       padding-right: 0px;
       padding-left: 0px;
     }
+
+
 
 
 
@@ -97,7 +101,7 @@
   }
   .header__menu svg {
     width: 32px;
-    fill: #707070;
+    fill: #000000;
   }
 
 
@@ -109,11 +113,23 @@
  }
 
 
+
+ .beeldBoven {
+  display: none;
+}
+
+
+    .beeld1, beeld2  {
+      display: none;
+    }
+
+
+
         .reis1 {
         display: flex;
         flex-wrap: wrap;
         order: 0;
-        width: 80%;
+        width: 90%;
 
     }
 
@@ -122,6 +138,7 @@
         flex-wrap: wrap;
         order: 1;
         width: 100%;
+        margin-top: 5px;
     }
 
     .reis2 .vlakLinks {
@@ -132,9 +149,6 @@
       padding-right: 10px;
     }
 
-    .beeld1, beeld2  {
-      display: none;
-    }
 
      .voorWie {
         order: 2;
@@ -157,9 +171,6 @@
       margin-bottom: 15px;
   }
 
-  .beeld1, .beeld2 {
-    display: none;
-  }
 
   .vlakLinks, .vlakRechts {
     margin-bottom: 0px;
@@ -297,7 +308,9 @@
 
 @media screen and (min-width: 601px) and (max-width: 767px) {
 
-
+  .reis__hoofdkop {
+     margin-top: 20%;
+ }
 
 
 
@@ -447,6 +460,135 @@
 
 @media screen and (min-width: 768px)  {
 
+
+    h1 {
+    font-size: 36px;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+
+  h3 {
+    font-size: 22px;
+  }
+
+
+
+
+
+
+/* uit min-width 700px gehaald
+    .reis1 {
+        display: flex;
+        flex-wrap: wrap;
+        order: 0;
+        width: 45%;
+    }
+
+
+    .reis2 {
+        display: flex;
+        flex-wrap: wrap;
+        order: 2;
+        width: 55%;
+    }
+
+    .voorWie {
+        order: 1;
+        width: 55%;
+
+        margin-left: 0px;
+    }
+
+    .ervaringen {
+        order: 3;
+        width: 40%;
+        ;
+        margin-right: 0px;
+    }
+
+*/
+
+
+  .reis1 {
+     display: flex;
+        flex-wrap: wrap;
+    order: 1;
+    width: 48%;
+    margin-right: 10px;
+
+  }
+
+    .reis2 {
+       display: flex;
+        flex-wrap: wrap;
+      order: 2;
+      margin-left: 10px;
+      width: 49%;
+    }
+
+
+   .voorWie {
+        order: 3;
+        width: 54%;
+        /*margin-left: 35px;*/
+        margin-right: 0px;
+    }
+
+
+    .ervaringen {
+        order: 4;
+        width: 34%;
+        margin-left: 10px;
+        margin-right: 5px;
+    }
+
+    .ietsLager {
+      margin-top: 20px;
+    }
+
+    .lager {
+      margin-top: 40px;
+    }
+
+    .ietsHoger {
+      margin-bottom: 20px;
+    }
+
+    .hoger {
+      margin-bottom: 40px;
+    }
+
+
+
+  .boven {
+    width: 100%;
+     display: flex;
+    flex-wrap: wrap;
+    order: -1;
+
+  }
+
+  .reis__hoofdkop {
+    order: 0;
+    width: 70%;
+  }
+
+  .beeldBoven {
+    order: 1;
+    width: 29%;
+    padding-top: 10px;
+
+
+/*
+     background-image: url(../images/Ijsberg.jpg);
+     background-position: top right;
+     background-repeat: no-repeat;
+*/
+  }
+
+
    .reis2 .vlakLinks  {
       margin-left: 35px;
     }
@@ -475,7 +617,7 @@
 
     .skigebied {
       order: 0;
-      max-width: 700px;
+      max-width: 800px;
     }
 
     .groep1 {
@@ -496,6 +638,11 @@
 
       width: 50%;
       order: 1;
+     }
+
+     .tweebovenelkaar {
+      width: 100%;
+
      }
 
      .ligging {
@@ -556,9 +703,21 @@
       order: 1;
     }
 
+    .letop .beeld{
+      width: 100%;
+    }
+
+
+    .letop .beeld img{
+      float: right;
+      padding-right: 20px;
+    }
+
+
+
 
     .groep4 {
-      width: 90%;
+      width: 100%;
       margin-left: 50px;
       max-width: 750px;
       display: flex;
@@ -566,14 +725,26 @@
     }
 
     .arrangement{
-      width: 100%
+      width: 90%
       margin-right: 0px;
       order: 0;
+    }
+
+    .tweenaastelkaar {
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+      order: 1;
     }
 
     .inclusief {
       margin-right: 0px;
       width: 70%;
+      order: 0;
+    }
+
+    .arrangementbeeld{
+      width: 30%;
       order: 1;
     }
 
@@ -623,120 +794,8 @@
       order: 2;
     }
 
-}
 
 
-
-
-
-@media screen and (min-width: 768px)  {
-
-    h1 {
-    font-size: 36px;
-  }
-
-  h2 {
-    font-size: 30px;
-  }
-
-  h3 {
-    font-size: 22px;
-  }
-
-
-
-
-
-  /*  main, .header__inner, .nav, .inhoud {
-      width: 900px;
-      margin-left: auto;
-      margin-right: auto;
-    }
-*/
-	.reis__hoofdkop {
-		order:-1;
-		width: 100%;
-
-	}
-
-
-/* uit min-width 700px gehaald
-    .reis1 {
-        display: flex;
-        flex-wrap: wrap;
-        order: 0;
-        width: 45%;
-    }
-
-
-    .reis2 {
-        display: flex;
-        flex-wrap: wrap;
-        order: 2;
-        width: 55%;
-    }
-
-    .voorWie {
-        order: 1;
-        width: 55%;
-
-        margin-left: 0px;
-    }
-
-    .ervaringen {
-        order: 3;
-        width: 40%;
-        ;
-        margin-right: 0px;
-    }
-
-*/
-
-
-	.reis1 {
-		order: 0;
-		width: 43%;
-    margin-right: 10px;
-
-	}
-
-   .voorWie {
-        order: 1;
-        width: 54%;
-        /*margin-left: 35px;*/
-        margin-right: 0px;
-    }
-
-    .reis2 {
-    	order: 2;
-      margin-left: 10px;
-    	width: 49%;
-    }
-
-
-
-    .ervaringen {
-        order: 3;
-        width: 34%;
-        margin-left: 10px;
-        margin-right: 5px;
-    }
-
-    .ietsLager {
-      margin-top: 20px;
-    }
-
-    .lager {
-      margin-top: 40px;
-    }
-
-    .ietsHoger {
-      margin-bottom: 20px;
-    }
-
-    .hoger {
-      margin-bottom: 40px;
-    }
 
 
      /*
@@ -997,25 +1056,6 @@
       order: 1;
     }
 
-
-    .groep4 {
-      width: 60%;
-      display: flex;
-      flex-wrap: wrap;
-      margin-left: 100px;
-    }
-
-    .arrangement{
-      width: 100%;
-      margin-right: 10px;
-      order: 0;
-    }
-
-    .inclusief {
-      margin-right: 0px;
-      width: 80%;
-      order: 1;
-    }
 
 
 

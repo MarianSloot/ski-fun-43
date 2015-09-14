@@ -489,8 +489,12 @@ onderdelen met beeld
 }
 
 .verder a, .reis__tekst a, .transfer a {
-  text-decoration: none;
+  /*text-decoration: none; */
   color: #4794df;
+}
+
+.modalDialog a {
+  color: #ffffff;
 }
 
 .verder a:hover, .reis__tekst a:hover, .transfer a:hover {
@@ -552,6 +556,10 @@ onderdelen met beeld
 }
 
 .close:hover { background: #00d9ff; }
+
+.close a {
+  color: #ffffff;
+}
 
 /* eind modal */
 /*

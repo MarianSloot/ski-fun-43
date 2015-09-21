@@ -217,7 +217,7 @@
      }
 
      .ligging {
-      width: 100%
+      width: 100%:;
       order: 0;
      }
 
@@ -227,12 +227,21 @@
      }
 
 
+     .letop {
+      padding-left: 20px;
+     }
+
+
 
 
     .groep4 {
       width: 100%;
       display: flex;
       flex-wrap: wrap;
+    }
+
+    .tweenaastelkaar {
+      padding-left: 10px;
     }
 
     .arrangement{
@@ -260,7 +269,7 @@
 
     .skihuur {
       margin-right: 0px;
-      width: 100%
+      width: 100%;
       order: 0;
     }
 
@@ -390,7 +399,7 @@
 
     .skihuur {
 
-      width: 80%
+      width: 80%:;
       order: 0;
     }
 
@@ -544,6 +553,7 @@
     order: 1;
     width: 30%;
     padding-top: 10px;
+  }
 
 
    .reis2 .vlakLinks  {
@@ -683,7 +693,7 @@
     }
 
     .arrangement{
-      width: 90%
+      width: 90%;
       margin-right: 0px;
       order: 0;
     }
@@ -808,7 +818,7 @@
 
     .skihuur {
       margin-right: 0px;
-      width: 100%
+      width: 100%;
       order: 0;
     }
 
@@ -836,7 +846,7 @@
 
     .reductie{
       margin-right: 0px;
-      width: 38%
+      width: 38%;
       order: 1;
     }
 
@@ -1011,7 +1021,7 @@
 
     .skihuur {
       margin-right: 20px;
-      width: 45%
+      width: 45%;
       order: 0;
     }
 
@@ -1038,7 +1048,7 @@
 
     .reductie{
       margin-right: 10px;
-      width: 20%
+      width: 20%;
       order: 1;
     }
 

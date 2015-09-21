@@ -46,10 +46,9 @@
 
 @media screen and (max-width: 767px) {
 
-  body {
-    background-image: url(../images/openingspagina_small.png);
-
-   }
+ .background {
+  background-image: url(../images/openingspagina_small.png);
+}
 
   h1 {
     font-size: 30px;
@@ -461,10 +460,7 @@
 
 @media screen and (min-width: 768px)  {
 
-   body {
-    background-image: url(../images/openingspagina_large.png);
 
-   }
 
     h1 {
     font-size: 36px;
@@ -477,43 +473,6 @@
   h3 {
     font-size: 22px;
   }
-
-
-
-
-
-
-/* uit min-width 700px gehaald
-    .reis1 {
-        display: flex;
-        flex-wrap: wrap;
-        order: 0;
-        width: 45%;
-    }
-
-
-    .reis2 {
-        display: flex;
-        flex-wrap: wrap;
-        order: 2;
-        width: 55%;
-    }
-
-    .voorWie {
-        order: 1;
-        width: 55%;
-
-        margin-left: 0px;
-    }
-
-    .ervaringen {
-        order: 3;
-        width: 40%;
-        ;
-        margin-right: 0px;
-    }
-
-*/
 
 
   .reis1 {
@@ -569,6 +528,7 @@
 
   .boven {
     width: 100%;
+    padding-left: 50px;
      display: flex;
     flex-wrap: wrap;
     order: -1;
@@ -582,16 +542,8 @@
 
   .beeldBoven {
     order: 1;
-    width: 39%;
+    width: 30%;
     padding-top: 10px;
-
-
-/*
-     background-image: url(../images/Ijsberg.jpg);
-     background-position: top right;
-     background-repeat: no-repeat;
-*/
-  }
 
 
    .reis2 .vlakLinks  {
@@ -936,12 +888,15 @@
     padding-left: 10%;
    }
 
-
-
+   .boven {
+    padding-left: 140px;
+   }
 
    .reis__hoofdkop {
     margin-top: 70px;
    }
+
+
 
 
   /*

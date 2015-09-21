@@ -28,6 +28,7 @@
 
 logo kleuren:;
 #fff  wit   rgba(255, 255, 255, .5)     ffffff
+#aacffb lichtblauw
 #4794df  middelblauw    rgba(71, 148, 223, .25)     4794df
 #21548e  donkerblauw    rgba(33, 84, 142, .25)      21548e
 
@@ -46,7 +47,7 @@ body, html {
 }
 
 body {
-  background-image: url(../images/OpeningsPaginaBergen.jpg);
+  background-image: url(../images/openingspagina.png);
   background-position: center top;
   background-repeat: no-repeat;
   background-size: 100%;
@@ -488,7 +489,7 @@ onderdelen met beeld
   text-align: left;
 }
 
-.verder a, .reis__tekst a, .transfer a {
+.verder a, .reis__tekst a, .skigebied a, .transfer a {
   /*text-decoration: none; */
   color: #4794df;
 }
@@ -497,7 +498,7 @@ onderdelen met beeld
   color: #ffffff;
 }
 
-.verder a:hover, .reis__tekst a:hover, .transfer a:hover {
+.verder a:hover, .reis__tekst a:hover, .skigebied a:hover, .transfer a:hover {
   color: #21548e;
 }
 

@@ -47,6 +47,7 @@
 @media screen and (max-width: 767px) {
 
   body {
+    background-image: url(../images/openingspagina_small.png);
 
    }
 
@@ -460,6 +461,10 @@
 
 @media screen and (min-width: 768px)  {
 
+   body {
+    background-image: url(../images/openingspagina_large.png);
+
+   }
 
     h1 {
     font-size: 36px;

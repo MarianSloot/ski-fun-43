@@ -47,7 +47,7 @@ body, html {
 }
 
 body {
-  background-image: url(../images/openingspagina.png);
+
   background-position: center top;
   background-repeat: no-repeat;
   background-size: 100%;
@@ -505,7 +505,7 @@ onderdelen met beeld
 /* modal */
 
 .modalDialog {
-  position: fixed;
+ position: fixed;
   font-family: 'Roboto', sans-serif;
   top: 0;
   right: 0;

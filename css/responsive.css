@@ -715,6 +715,7 @@
 
     .letop .beeld img{
       float: right;
+      padding-top: 50px;
       padding-right: 20px;
     }
 
@@ -753,53 +754,10 @@
       order: 1;
     }
 
-    /* ski */
-
-    .groep5 {
-      width: 80%;
-      display: flex;
-      flex-wrap: wrap;
+    .arrangementbeeld img {
+      padding-top: 60px;
+      padding-left: 50px;
     }
-
-    .skihuur {
-      margin-right: 0px;
-      width: 100%
-      order: 0;
-    }
-
-    .skipassen {
-      margin-right: 0px;
-      width: 90%;
-      order: 1;
-    }
-
-
-    .groep6 {
-      width: 70%;
-      margin-left: 100px;
-      display: flex;
-      flex-wrap: wrap;
-    }
-
-     .toeslag {
-      margin-right: 0px;
-      width: 90%;
-      order: 0;
-    }
-
-    .reductie{
-      margin-right: 10px;
-      width: 30%
-      order: 1;
-    }
-
-    .extrakosten {
-      margin-right: 0px;
-      width: 100%;
-      order: 2;
-    }
-
-
 
 
 
@@ -885,11 +843,29 @@
 
 
 
-     /* ski */
 
-     .groep5 {
-      margin-left: 40px;
-     }
+
+         /* ski */
+
+    .groep5 {
+      width: 80%;
+       margin-left: 40px;
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .skihuur {
+      margin-right: 0px;
+      width: 100%
+      order: 0;
+    }
+
+    .skipassen {
+      margin-right: 0px;
+      width: 90%;
+      order: 1;
+    }
+
 
 
     .groep6 {
@@ -914,8 +890,14 @@
 
     .extrakosten {
       margin-right: 0px;
-      width: 70%;
+      width: 80%;
       order: 2;
+    }
+
+    .groep6 .beeld1 {
+      width: 10%;
+      order: 3;
+      padding-top: 30px;
     }
 
 
@@ -1087,7 +1069,7 @@
 
 
     .groep6 {
-      width: 90%;
+      width: 100%;
       display: flex;
       flex-wrap: wrap;
     }
@@ -1107,9 +1089,17 @@
 
     .extrakosten {
       margin-right: 0px;
-      width: 40%;
+      width: 35%;
       order: 2;
     }
+
+    .groep6 .beeld1 {
+      width: 10%;
+      order: 4;
+      padding-top: 30px;
+    }
+
+
 
     .groep7 {
       max-width: 800px;
@@ -1121,7 +1111,7 @@
 
 @media screen and (min-width: 1400px) {
     .nav {
-    margin-left: 10%;
+    margin-left: 20%;
    }
 }
 

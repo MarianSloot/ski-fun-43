@@ -60,7 +60,7 @@ body {
 .background {
     margin-left: auto;
       margin-right: auto;
-  background-image: url(../images/openingspagina03.png);
+  background-image: url(../images/openingspagina05.png);
   background-repeat: no-repeat;
   background-attachment: scroll;
    background-position: center top;
@@ -510,7 +510,7 @@ onderdelen met beeld
 
 .verder p {
   font-family: 'Varela Round', sans-serif;
-  font-size: 20px;
+  font-size: 16px;
   text-align: left;
 }
 

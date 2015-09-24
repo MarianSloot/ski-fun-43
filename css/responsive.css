@@ -41,6 +41,14 @@
       padding-right: 10px;
     /*  white-space: nowrap; */
     }
+
+
+      .hotelfoto  {
+        display: none;
+      }
+
+
+
 }
 
 
@@ -127,6 +135,8 @@
     .beeld1, beeld2  {
       display: none;
     }
+
+
 
 
 
@@ -229,6 +239,19 @@
      .verzorging {
       width: 100%;
       order: 1;
+      margin-bottom: 35px;
+     }
+
+     .faciliteiten {
+      margin-bottom: 35px;
+     }
+
+     .kamers {
+      margin-bottom: 35px;
+     }
+
+     .kamerindeling {
+      margin-bottom: 35px;
      }
 
 
@@ -335,7 +358,7 @@
 
 
 
-    /*reisbeschrijvingen*/
+    /*reisbeschrijvingen  601-767 */
 
 
    .vlak1Tabel {
@@ -346,34 +369,48 @@
          display: flex;
       flex-wrap: wrap;
       width: 100%;
+      margin-left: 40px;
+
      }
 
      .accomodatie {
-      width: 100%;
+      width: 50%;
+      margin-right: 20px;
       order: 0;
 
      }
 
+
+     .hotelfoto {
+      width: 40%;
+      order: 1;
+     }
+
+/*
      .tweeInEen {
       display: flex;
       flex-wrap: wrap;
       width: 100%;
       order: 1;
-     }
+     }  */
 
      .ligging {
-      width: 40%
-      order: 0;
+      width: 80%;
+      order: 2;
      }
 
-     .verzorging {
-      width: 45%;
-      order: 1;
-     }
+
+
+
+
 
       .groep2 {
       width: 80%;
      }
+
+
+
+
 
      .groep3 {
       width: 80%;
@@ -571,6 +608,8 @@
   }
 
 
+
+
    .reis2 .vlakLinks  {
       margin-left: 35px;
     }
@@ -586,9 +625,11 @@
     }
 
 
+
+
     /*
     *
-    * Reisbeschrijvingen
+    * Reisbeschrijvingen 768px
     *
     */
 
@@ -602,42 +643,39 @@
       max-width: 800px;
     }
 
+
+
     .groep1 {
-      width: 100%;
+      width: 100%%;
       display: flex;
       flex-wrap: wrap;
+      margin-left: 30px;
     }
 
      .accomodatie {
-      margin-right: 10px;
+      margin-right: 30px;
       width: 45%;
       order: 0;
     }
 
-     .tweeInEen {
-      display: flex;
-      flex-wrap: wrap;
-
-      width: 50%;
+      .hotelfoto {
+      width: 30%;
       order: 1;
      }
 
-     .tweebovenelkaar {
-      width: 100%;
-
-     }
 
      .ligging {
-      margin-right: 20px;
-      width: 100%;
-      order: 1;
-    }
-
-     .verzorging {
-      margin-right: 10px;
+      margin-right: 0px;
       width: 100%;
       order: 2;
     }
+
+
+
+
+
+
+
 
 
 
@@ -647,24 +685,34 @@
       flex-wrap: wrap;
     }
 
-    .faciliteiten {
+     .verzorging {
       margin-right: 10px;
-      width: calc((100% - 30px) / 3);
+      padding-right: 30px;
+      width: 45%;
       order: 0;
     }
 
-    .
+    .faciliteiten {
+      margin-right: 10px;
+      width: 45%;
+      order: 1;
+    }
+
+    .kamers
      {
       margin-right: 10px;
-      width: calc((100% - 30px) / 3);
-      order: 1;
+      padding-right: 30px;
+      width: 45%;
+      order: 2;
     }
 
     .kamerindeling {
       margin-right: 10px;
-      width: calc((100% - 30px) / 3);
-      order: 2;
+      width: 45%;
+      order: 3;
     }
+
+
 
 
     .groep3 {
@@ -701,8 +749,8 @@
 
 
     .groep4 {
-      width: 100%;
-      margin-left: 50px;
+      width: 80%;
+      margin-left: 120px;
       max-width: 750px;
       display: flex;
       flex-wrap: wrap;
@@ -710,6 +758,7 @@
 
     .arrangement{
       width: 90%;
+      max-width: 550px;
       margin-right: 0px;
       order: 0;
     }
@@ -738,95 +787,7 @@
     }
 
 
-
-     /*
-    *
-    * Reisbeschrijvingen
-    *
-    */
-
-
-   .vlak1Tabel {
-    box-shadow: none;
-   }
-
-    .groep1 {
-      margin-left: 30px;
-    }
-
-    .groep2 {
-      width: 100%;
-      margin-left: 0px;
-      display: flex;
-      flex-wrap: wrap;
-    }
-
-    .faciliteiten {
-      margin-right: 20px;
-      padding-right: 10px;
-      width: calc((100% - 30px) / 3);
-      order: 0;
-    }
-
-    .kamers {
-      margin-right: 20px;
-       padding-right: 10px;
-      width: calc((100% - 30px) / 3);
-      order: 1;
-    }
-
-    .kamerindeling {
-      margin-right: 20px;
-       padding-right: 10px;
-      width: calc((100% - 30px) / 3);
-      order: 2;
-    }
-
-
-    .groep3 {
-      width: 100%;
-      display: flex;
-      flex-wrap: wrap;
-    }
-
-    .transfer {
-      margin-right: 10px;
-      width: calc((100% - 20px) / 2);
-      order: 0;
-    }
-
-    .letop {
-
-      margin-right: 10px;
-      width: calc((100% - 20px) / 2);
-      order: 1;
-    }
-
-
-    .groep4 {
-      width: 80%;
-      margin-left: 120px;
-      display: flex;
-      flex-wrap: wrap;
-    }
-
-    .arrangement{
-      width: 100%;
-      margin-right: 10px;
-      order: 0;
-    }
-
-    .inclusief {
-      margin-right: 0px;
-      width: 70%;
-      order: 1;
-    }
-
-
-
-
-
-         /* ski */
+     /* ski */
 
     .groep5 {
       width: 80%;
@@ -884,6 +845,14 @@
 }
 
 
+
+
+
+
+
+
+
+
 @media screen and (min-width: 992px)  {
 
    .boven {
@@ -915,48 +884,49 @@
 
     .skigebied {
       width: 45%;
-      margin-right: 20px;
+      margin-right: 10px;
     }
 
 
    .groep1 {
-      width: 40%;
-      margin-left: 50px;
+      width: 50%;
+    /*  margin-left: 50px;  */
 
       display: flex;
       flex-wrap: wrap;
     }
 
      .accomodatie {
-      margin-right: 10px;
+      margin-right: 0px;
       width: 100%;
+      margin-bottom: 30px;
       order: 0;
     }
 
-     .tweeInEen {
+  /*   .tweeInEen {
       display: flex;
       flex-wrap: wrap;
       width: 100%;
       order: 1;
-     }
+     }  */
 
      .ligging {
-      margin-right: 20px;
-      width: 45%;
-      order: 0;
+      margin-left: 20px;
+      width: 50%;
+      order: 2;
     }
 
-     .verzorging {
-      margin-right: 0px;
-      width: 40%;
+      .hotelfoto {
+      width: 45%;
       order: 1;
-    }
+     }
+
 
 
 
     .groep2 {
-      width: 70%;
-      margin-left: 250px;
+      width: 100%;
+      margin-left: 50px;
 
       display: flex;
       flex-wrap: wrap;
@@ -964,20 +934,31 @@
 
     .faciliteiten {
       margin-right: 10px;
-      width: calc((100% - 30px) / 3);
+       width: 22%;
+      order: 1;
+
       order: 0;
     }
 
-    .kamers {
+     .verzorging {
       margin-right: 10px;
-      width: calc((100% - 30px) / 3);
+      width: 22%;
       order: 1;
     }
 
-    .kamerindeling {
+
+    .kamers {
       margin-right: 10px;
-      width: calc((100% - 30px) / 3);
+      width: 22%;
+      order: 1;
       order: 2;
+    }
+
+    .kamerindeling {
+      margin-right: 0px;
+      width: 22%;
+      order: 1;
+      order: 3;
     }
 
 

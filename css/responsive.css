@@ -1,6 +1,7 @@
-.inhoud {
+.main {
   display: flex;
   flex-wrap: wrap;
+
 }
 
 .header__menu {
@@ -56,6 +57,12 @@
 
  .background {
   background-image: url(../images/openingspagina-uitsn05.png);
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+   background-position: center top;
+
+  background-size: 100%;
+  max-width: 1400px;
 }
 
   h1 {
@@ -532,7 +539,7 @@
   }
 
   .reis__hoofdkop {
-    margin-top: 50px;
+    margin-top: 10%;
   }
 
 
@@ -553,9 +560,20 @@
       width: 49%;
     }
 
+    .boven-home {
+      width: 100%;
+      order: 0;
+    }
+
+    .onder  {
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
 
    .voorWie {
-        order: 3;
+        order: 0;
         width: 54%;
         /*margin-left: 35px;*/
         margin-right: 0px;
@@ -563,9 +581,9 @@
 
 
     .ervaringen {
-        order: 4;
+        order: 1;
         width: 34%;
-        margin-left: 10px;
+        margin-left: 40px;
         margin-right: 5px;
     }
 
@@ -588,24 +606,51 @@
 
 
   .boven {
+    background-image: url(../images/bergvoor.png);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+   background-position: right top;
+  background-size: 40%;
+ max-width: 100%;
     width: 100%;
-    padding-left: 50px;
+    padding-left: 20px;
      display: flex;
     flex-wrap: wrap;
     order: -1;
 
   }
 
-  .reis__hoofdkop {
-    order: 0;
-    width: 60%;
+   .boven-home {
+
+    background-image: url(../images/kerstboomgroot.png);
+      background-repeat: no-repeat;
+    background-attachment: scroll;
+   background-position: right 40px top 10px;
+  background-size: 25%;
+
+ max-width: 100%;
+    width: 100%;
+
+
+     display: flex;
+    flex-wrap: wrap;
+    order: -1;
+
+
   }
 
-  .beeldBoven {
+
+
+  .reis__hoofdkop {
+    order: 0;
+    width: 70%;
+  }
+
+ /* .beeldBoven {
     order: 1;
     width: 30%;
     padding-top: 10px;
-  }
+  }  */
 
 
 
@@ -860,7 +905,7 @@
   }
 
   .reis__hoofdkop {
-    margin-top: 90px;
+    margin-top: 15%;
   }
 
   .skigebied h2 {
@@ -883,7 +928,7 @@
 
 
     .skigebied {
-      width: 45%;
+      width: 40%;
       margin-right: 10px;
     }
 
@@ -1077,7 +1122,7 @@
    }
 
    .reis__hoofdkop {
-    margin-top: 130px;
+    margin-top: 11%;
    }
 
 }
@@ -1089,7 +1134,7 @@
    }
 
     .reis__hoofdkop {
-    margin-top: 140px;
+    margin-top: 25%;
    }
 }
 

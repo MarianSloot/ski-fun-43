@@ -349,7 +349,7 @@ h2 .skigebied {
  */
 
 .nav {
- /* width: 90%; */
+
   margin-left: 3%;
 
   background-color: #4794df;
@@ -362,11 +362,6 @@ h2 .skigebied {
   margin: 0;
 }
 
-.nav__list li.vr {
-   /* doesnt work well on smaller screens
-  border-right: 1px solid #fffff0;
-  border-radius: 5px;*/
-}
 
 .nav ul {
   list-style: none;
@@ -379,16 +374,14 @@ h2 .skigebied {
   box-sizing: border-box;
   display: inline-block;
    white-space: nowrap;
-  /* width: 16%;
- float: left; */
   position: relative;
   margin-left: 1px;
-  font-size: 12px;
+  font-size: 13px;
  /* font-weight: 700;*/
   letter-spacing: 0.1em;
   text-align: center;
   line-height: 24px;
-  padding: 15px 0px 15px 10px;
+  padding: 15px 0px 15px 12px;
   text-transform: uppercase;
 
 }

@@ -106,7 +106,7 @@
   .nav__item {
     display: list-item;
     border-bottom: 1px solid #E0E0E0;
-   width: 300px;
+    width: 300px;
     text-align: left;
   }
   .header__menu {

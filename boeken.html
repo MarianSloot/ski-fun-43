@@ -13,8 +13,8 @@
 
     <!-- CSS-->
     <!-- Google web ps: http://www.google.com/ps-->
-    <link href='https://ps.googleapis.com/css?family=Varela+Round%7cOswald:400,700%7cRoboto+Condensed:400,700' rel='stylesheet' type='text/css'>
-    <link href='http://ps.googleapis.com/css?family=Roboto:300,400,500,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Varela+Round%7cOswald:400,700%7cRoboto+Condensed:400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Roboto:300,400,500,700' rel='stylesheet' type='text/css'>
 
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
@@ -47,313 +47,642 @@
     </nav>
 
   	<main >
-  	  <div class="inhoud">
-
-        <div class="boven">
-  	      <div class="reis__hoofdkop">
+  	  <div class="boven-home">
+        <div class="reis__hoofdkop">
   	      	<h1>Reis boeken</h1>
             <p>De reis is vaak sneller volgeboekt dan is te voorzien, wacht daarom  niet met boeken tot op het laatste moment.<br>
             Met kamerindelingswensen wordt zo veel mogelijk rekening gehouden. Kamertoewijzing gaat op volgorde van boeking.</p>
 
-            <h3>Groepswintersportreis van 22 januari t/m 31 januari 2016 naar Tignes in Frankrijk</h3>
-            <p><span class="bold">Boek vóór </span>7 december 2015. Na die datum kan alleen de kamer apart worden aangevraagd met kans op een weigering.<br>
+            <h3>Groepswintersportreis naar Tignes </h3>
+            <p class="bold">Vrijdag 22 januari t/m <span class="nowrap">zondag 31 januari 2016</span></p>
+            <p>Boek vóór 7 december 2015. Na die datum kan alleen de kamer apart worden aangevraagd met kans op een weigering.<br>
             </p>
-            <h3>Groepswintersportreis van 11 maart t/m 20 maart 2016 naar Les Menuires  in Frankrijk</h3>
-            <p><span class="bold">Boek vóór </span>20 januari 2016. Na die datum kan alleen de kamer apart worden aangevraagd met kans op een weigering.
+            <h3>Groepswintersportreis naar Les Menuires</h3>
+            <p class="bold">vrijdag 11 maart t/m <span class="nowrap">zondag 20 maart 2016</span></p>
+            <p>Boek vóór 20 januari 2016. Na die datum kan alleen de kamer apart worden aangevraagd met kans op een weigering.
             </p>
+  	    </div>
 
+      </div>
 
-  	      </div>
-<!--
-          <div class="beeldBoven">
-           <img src="images/Kerstboom.jpg" alt-"boom">
-          </div>
-        -->
-        </div>
-
-
-
-        <div>
-          <form method="post" action="http://janschuling.nl/cgi-bin/FormMail.pl" abframeid="iframe.0. 5181515291333199" abineguid="27C8E974F12D4FFF91D9769F4E03FB89">
+      <div >
+          <form class="form-basic" method="post" action="http://janschuling.nl/cgi-bin/FormMail.pl" abframeid="iframe.0. 5181515291333199" abineguid="27C8E974F12D4FFF91D9769F4E03FB89">
             <input type="hidden" name="recipient" value="skifun43@janschuling.nl">
             <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
-            <title>AANMELDINGSFORMULIER</title>
+            <title>Aanmeldingsformulier</title>
+
+<!--algemene gegevens -->
+              <div>
+                <div class="form-title-row">
+                  <h2>Algemene gegevens</h2>
+                </div>
+
+                <div class="form-row">
+                    <label>
+                        <span>Wintersportbestemming</span>
+                        <select name="1 wintersportbestemming">
+                            <option></option>
+                            <option>Tignes (januari)</option>
+                            <option>Les Menuires (maart)</option>
+                            <option>Tignes en Les Menuires</option>
+                        </select>
+                    </label>
+                </div>
+
+                <div class="form-row">
+                    <label>
+                        <span>Voor- en achternaam</span>
+                        <input type="text" name="2 voor-,achternaam" required >
+                    </label>
+                </div>
+
+                <div class="form-row">
+                    <label>
+                        <span>Man/vrouw</span>
+                        <select>
+                            <option></option>
+                            <option>man</option>
+                            <option>vrouw</option>
+                        </select>
+                    </label>
+                </div>
+
+                <div class="form-row">
+                    <label>
+                        <span>Straat en huisnummer</span>
+                        <input type="text" name="4 straat, nr." >
+                    </label>
+                </div>
+
+                <div class="form-row">
+                    <label>
+                        <span>Postcode</span>
+                        <input type="text" name="5 postcode">
+                    </label>
+                </div>
+
+                <div class="form-row">
+                    <label>
+                        <span>Woonplaats</span>
+                        <input type="text" name="6 woonplaats" >
+                    </label>
+                </div>
+
+                <div class="form-row">
+                    <label>
+                        <span>Geboortedatum</span>
+                        <select name="7 geboortedatum">
+                            <option>01</option>
+                            <option>02</option>
+                            <option>03</option>
+                            <option>04</option>
+                            <option>05</option>
+                            <option>06</option>
+                            <option>07</option>
+                            <option>08</option>
+                            <option>09</option>
+                            <option>10</option>
+                            <option>11</option>
+                            <option>12</option>
+                            <option>13</option>
+                            <option>14</option>
+                            <option>15</option>
+                            <option>16</option>
+                            <option>17</option>
+                            <option>18</option>
+                            <option>19</option>
+                            <option>20</option>
+                            <option>21</option>
+                            <option>22</option>
+                            <option>23</option>
+                            <option>24</option>
+                            <option>25</option>
+                            <option>26</option>
+                            <option>27</option>
+                            <option>28</option>
+                            <option>29</option>
+                            <option>30</option>
+                            <option>31</option>
+                        </select>
+
+                        <select name="8 Geboortemaand">
+                            <option>januari</option>
+                            <option>februari</option>
+                            <option>maart</option>
+                            <option>april</option>
+                            <option>mei</option>
+                            <option>juni</option>
+                            <option>juli</option>
+                            <option>augustus</option>
+                            <option>september</option>
+                            <option>oktober</option>
+                            <option>november</option>
+                            <option>december</option>
+                        </select>
+
+                        <select name="9 geboortejaar">
+                            <option>jonger</option>
+                            <option>1973</option>
+                            <option>1972</option>
+                            <option>1971</option>
+                            <option>1970</option>
+                            <option>1969</option>
+                            <option>1968</option>
+                            <option>1967</option>
+                            <option>1966</option>
+                            <option>1965</option>
+                            <option>1964</option>
+                            <option>1963</option>
+                            <option>1962</option>
+                            <option>1961</option>
+                            <option>1960</option>
+                            <option>1959</option>
+                            <option>1958</option>
+                            <option>1957</option>
+                            <option>1956</option>
+                            <option>1955</option>
+                            <option>1954</option>
+                            <option>1953</option>
+                            <option>1952</option>
+                            <option>1951</option>
+                            <option>1950</option>
+                            <option>1949</option>
+                            <option>1948</option>
+                            <option>1947</option>
+                            <option>1946</option>
+                            <option>1945</option>
+                            <option>1944</option>
+                            <option>1943</option>
+                            <option>1942</option>
+                            <option>1941</option>
+                            <option>1940</option>
+                            <option>1939</option>
+                            <option>1938</option>
+                            <option>1937</option>
+                            <option>1936</option>
+                            <option>1935</option>
+                            <option>1934</option>
+                            <option>1933</option>
+                        </select>
+                    </label>
+                </div>
+
+                <div class="form-row">
+                    <label>
+                        <span>E-mail</span>
+                        <input type="text" name="10 e-mail" required>
+                    </label>
+                </div>
+
+                <div class="form-row">
+                    <label>
+                        <span>Telefoon</span>
+                        <input type="text" name="11 telefoonnr." >
+                    </label>
+                </div>
+
+                <div class="form-row">
+                    <label>
+                        <span>Mobiel</span>
+                        <input type="text" name="12 mobielnr.">
+                    </label>
+                </div>
+
+                <div class="form-row">
+                    <label>
+                        <span>Telefoon thuisblijvers 1</span>
+                        <input type="text" name="13 tel.thuisblijvers 1" >
+                    </label>
+                </div>
+
+                <div class="form-row">
+                    <label>
+                        <span>Telefoon thuisblijvers 2</span>
+                        <input type="text" name="14 tel.thuisblijvers 2" >
+                    </label>
+                </div>
+
+                <div class="form-row">
+                    <label>
+                        <span>Gebruik 06-nummer toestaan</span>  <!--<p>Toestaan om uw 06-nummer te gebruiken in algemene deelnemerscorrespondentie en e-mails</p> -->
+                        <input type="checkbox" name="15 gebruik 06- tel.nr.checkbox" unchecked>
+                    </label> ja (voor algemene correspondentie en e-mails)
+                </div>
+
+                 <div class="form-row">
+                    <label>
+                        <span>Annuleringsverzekering</span>
+                        <select name="16 ann.verz.">
+                            <option>geen</option>
+                            <option>Tignes</option>
+                            <option>Les Menuires</option>
+                            <option>Tignes en Les Menuires</option>
+                        </select>
+                    </label>
+                </div>
+
+                <div class="form-row">
+                    <label>
+                        <span>Reisverzekering</span>
+                        <select name="17 reisverz.">
+                            <option>geen</option>
+                            <option>Tignes</option>
+                            <option>Les Menuires</option>
+                            <option>Tignes en Les Menuires</option>
+                        </select>
+                    </label>
+                </div>
+
+
+
+<!--skireis januari -->
+
+            <div class="tintvlakWit50 paddingleft">
+
+                <div class="form-title-row">
+                  <h2>Skireis Tignes in Frankrijk </h2>
+                  <p>22-31 januari 2016</p>
+                </div>
+
+                <div class="form-row">
+                    <label>
+                        <span>Op-/uitstapplaats bus of eigen vervoer</span>
+                        <select name="18 Op-/uitstapplaats bus">
+                            <option></option>
+                            <option>Zwolle (alleen opstap)</option>
+                            <option>Amsterdam</option>
+                            <option>Rotterdam</option>
+                            <option>Utrecht</option>
+                            <option>Eindhoven-Meerhoven</option>
+                            <option>Bruchem 'De Lucht' A2</option>
+                            <option>Maastricht </option>
+                            <option>Eigen vervoer</option>
+                        </select>
+                    </label>
+                </div>
+
+                <div class="form-row">
+                    <label>
+                        <span>Voorkeur kamerindeling</span>
+                        <input type="text" name="19 Kamerindelingswens" >
+                    </label>
+                </div>
+
+                 <div class="form-row">
+                    <label>
+                        <span>Vragen of opmerkingen</span>
+                        <textarea name="20 Toelichtingen" placeholder="Vragen over de reis, toelichting over dieet, gezondheid ed. "></textarea>
+                    </label>
+                </div>
+
+                <div class="form-row">
+                    <label>
+                       <span>Skipas uitbreiding</span>
+                       <input type="checkbox" name="Geen skipas" > Geen skipas <br>
+                       <span></span>
+                       <input type="checkbox" name="6 dg skipas Tignes" > 6 dg skipas Tignes <br>
+                       <span></span>
+                       <input type="checkbox" name="7 dg skipas Tignes" > 7 dg skipas Tignes <br>
+                       <span></span>
+                       <input type="checkbox" name="8 dg skipas Tignes" > 8 dg skipas Tignes <br>
+                       <span></span>
+                       <input type="checkbox" name="6 dg skipas senior 65 tm 74 jaar Tignes" > 6 dg skipas senior 65 tm 74 jaar Tignes <br>
+                       <span></span>
+                       <input type="checkbox" name="7 dg skipas senior 65 tm 74 jaar Tignes" > 7 dg skipas senior 65 tm 74 jaar Tignes<br>
+                       <span></span>
+                       <input type="checkbox" name="8 dg skipas senior 65 tm 74 jaar  Tignes" > 8 dg skipas senior 65 tm 74 jaar  Tignes <br>
+                       <span></span>
+                       <input type="checkbox" name="6 dg Skipas Espace Killy" > 6 dg Skipas Espace Killy <br>
+                       <span></span>
+                       <input type="checkbox" name="7 dg skipas Espace Killy" > 7 dg skipas Espace Killy <br>
+                       <span></span>
+                       <input type="checkbox" name="8 dg skipas Espace Killy" > 8 dg skipas Espace Killy <br>
+                       <span></span>
+                       <input type="checkbox" name="6 dg skipas senior 65 tm 74 jaar Espace Killy" > 6 dg skipas senior 65 tm 74 jaar Espace Killy <br>
+                       <span></span>
+                       <input type="checkbox" name="7 dg skipas senior 65 tm 74 jaar Espace Killy" > 7 dg skipas senior 65 tm 74 jaar Espace Killy <br>
+                       <span></span>
+                       <input type="checkbox" name="8 dg skipas senior 65 tm 74 jaar Espace Killy" > 8 dg skipas senior 65 tm 74 jaar Espace Killy <br>
+
+                    </label>
+                </div>
+
+                <div class="form-row">
+                    <label><span>Skimateriaal </span></label>
+                    <input type="checkbox" name="checkbox" > Carveski 7dg
+                    <div class="form-radio-buttons">
+
+                       <div>
+                        <label>
+                            <input type="radio" name="radio">
+                            <span>classic</span>
+                        </label>
+                       </div>
+                       <div>
+                        <label>
+                            <input type="radio" name="radio">
+                            <span>premium</span>
+                        </label>
+                       </div>
+                       <div>
+                        <label>
+                            <input type="radio" name="radio">
+                            <span>expert</span>
+                        </label>
+                       </div>
+
+                   </div>
+                   <label><span></span></label>
+                    <input type="checkbox" name="checkbox" > Carveski/-schoenen 7dg
+                    <div class="form-radio-buttons">
+
+                       <div>
+                        <label>
+                            <input type="radio" name="radio">
+                            <span>classic</span>
+                        </label>
+                       </div>
+                       <div>
+                        <label>
+                            <input type="radio" name="radio">
+                            <span>premium</span>
+                        </label>
+                       </div>
+                       <div>
+                        <label>
+                            <input type="radio" name="radio">
+                            <span>expert</span>
+                        </label>
+                       </div>
+
+                   </div>
+
+                   <label><span></span></label>
+                    <input type="checkbox" name="checkbox" > Carveski 8dg
+                    <div class="form-radio-buttons">
+
+                       <div>
+                        <label>
+                            <input type="radio" name="radio">
+                            <span>classic</span>
+                        </label>
+                       </div>
+                       <div>
+                        <label>
+                            <input type="radio" name="radio">
+                            <span>premium</span>
+                        </label>
+                       </div>
+                       <div>
+                        <label>
+                            <input type="radio" name="radio">
+                            <span>expert</span>
+                        </label>
+                       </div>
+
+                   </div>
+
+                   <label><span></span></label>
+                    <input type="checkbox" name="checkbox" > Carveski/-schoenen 8dg
+                    <div class="form-radio-buttons">
+
+                       <div>
+                        <label>
+                            <input type="radio" name="radio">
+                            <span>classic</span>
+                        </label>
+                       </div>
+                       <div>
+                        <label>
+                            <input type="radio" name="radio">
+                            <span>premium</span>
+                        </label>
+                       </div>
+                       <div>
+                        <label>
+                            <input type="radio" name="radio">
+                            <span>expert</span>
+                        </label>
+                       </div>
+
+                   </div>
+               </div>
+
+            </div>
+
+<!--skireis maart  -->
+
+             <div class="tintvlakWit50 paddingleft">
+
+                <div class="form-title-row">
+                  <h2>Skireis Les Menuires </h2>
+                  <p>11-20 maart 2016</p>
+                </div>
+
+                <div class="form-row">
+                    <label>
+                        <span>Op-/uitstapplaats bus of eigen vervoer</span>
+                        <select name="18 Op-/uitstapplaats bus">
+                            <option></option>
+                            <option>Zwolle (alleen opstap)</option>
+                            <option>Amsterdam</option>
+                            <option>Rotterdam</option>
+                            <option>Utrecht</option>
+                            <option>Eindhoven-Meerhoven</option>
+                            <option>Bruchem 'De Lucht' A2</option>
+                            <option>Maastricht </option>
+                            <option>Eigen vervoer</option>
+                        </select>
+                    </label>
+                </div>
+
+                <div class="form-row">
+                    <label>
+                        <span>Voorkeur kamerindeling</span>
+                        <input type="text" name="19 Kamerindelingswens" >
+                    </label>
+                </div>
+
+                 <div class="form-row">
+                    <label>
+                        <span>Vragen of opmerkingen</span>
+                        <textarea name="20 Toelichtingen" placeholder="Vragen over de reis, toelichting over dieet, gezondheid ed. "></textarea>
+                    </label>
+                </div>
+
+                <div class="form-row">
+                    <label>
+                       <span>Skipas uitbreiding</span>
+                       <input type="checkbox" name="Geen skipas" > Geen skipas <br>
+                       <span></span>
+                       <input type="checkbox" name="6 dg skipas Les Menuires" > 6 dg skipas Les Menuires <br>
+                       <span></span>
+                       <input type="checkbox" name="7 dg skipas Les Menuires" > 7 dg skipas Les Menuires <br>
+                       <span></span>
+                       <input type="checkbox" name="8 dg skipas Les Menuires" > 8 dg skipas Les Menuires <br>
+                       <span></span>
+                       <input type="checkbox" name="6 dg skipas senior 65 tm 74 jaar Les Menuires" > 6 dg skipas senior 65 tm 74 jaar Les Menuires <br>
+                       <span></span>
+                       <input type="checkbox" name="7 dg skipas senior 65 tm 74 jaar Le
+                       s Menuires" > 7 dg skipas senior 65 tm 74 jaar Les Menuires<br>
+                       <span></span>
+                       <input type="checkbox" name="8 dg skipas senior 65 tm 74 jaar  Les Menuires" > 8 dg skipas senior 65 tm 74 jaar  Les Menuires <br>
+                       <span></span>
+                       <input type="checkbox" name="6 dg Skipas Les Trois Vallées" > 6 dg Skipas Les Trois Vallées <br>
+                       <span></span>
+                       <input type="checkbox" name="7 dg skipas Les Trois Vallées" > 7 dg skipas Les Trois Vallées <br>
+                       <span></span>
+                       <input type="checkbox" name="8 dg skipas Les Trois Vallées" > 8 dg skipas Les Trois Vallées <br>
+                       <span></span>
+                       <input type="checkbox" name="6 dg skipas senior 65 tm 74 jaar Les Trois Vallées" > 6 dg skipas senior 65 tm 74 jaar Les Trois Vallées <br>
+                       <span></span>
+                       <input type="checkbox" name="7 dg skipas senior 65 tm 74 jaar Les Trois Vallées" > 7 dg skipas senior 65 tm 74 jaar Les Trois Vallées <br>
+                       <span></span>
+                       <input type="checkbox" name="8 dg skipas senior 65 tm 74 jaar Les Trois Vallées" > 8 dg skipas senior 65 tm 74 jaar Les Trois Vallées<br>
+                    </label>
+                </div>
+
+                <div class="form-row">
+                    <label><span>Skimateriaal </span></label>
+                    <input type="checkbox" name="checkbox" > Carveski 7dg
+                    <div class="form-radio-buttons">
+
+                       <div>
+                        <label>
+                            <input type="radio" name="radio">
+                            <span>classic</span>
+                        </label>
+                       </div>
+                       <div>
+                        <label>
+                            <input type="radio" name="radio">
+                            <span>premium</span>
+                        </label>
+                       </div>
+                       <div>
+                        <label>
+                            <input type="radio" name="radio">
+                            <span>expert</span>
+                        </label>
+                       </div>
+
+                   </div>
+                   <label><span></span></label>
+                    <input type="checkbox" name="checkbox" > Carveski/-schoenen 7dg
+                    <div class="form-radio-buttons">
+
+                       <div>
+                        <label>
+                            <input type="radio" name="radio">
+                            <span>classic</span>
+                        </label>
+                       </div>
+                       <div>
+                        <label>
+                            <input type="radio" name="radio">
+                            <span>premium</span>
+                        </label>
+                       </div>
+                       <div>
+                        <label>
+                            <input type="radio" name="radio">
+                            <span>expert</span>
+                        </label>
+                       </div>
+
+                   </div>
+
+                   <label><span></span></label>
+                    <input type="checkbox" name="checkbox" > Carveski 8dg
+                    <div class="form-radio-buttons">
+
+                       <div>
+                        <label>
+                            <input type="radio" name="radio">
+                            <span>classic</span>
+                        </label>
+                       </div>
+                       <div>
+                        <label>
+                            <input type="radio" name="radio">
+                            <span>premium</span>
+                        </label>
+                       </div>
+                       <div>
+                        <label>
+                            <input type="radio" name="radio">
+                            <span>expert</span>
+                        </label>
+                       </div>
+
+                   </div>
+
+                   <label><span></span></label>
+                    <input type="checkbox" name="checkbox" > Carveski/-schoenen 8dg
+                    <div class="form-radio-buttons">
+
+                       <div>
+                        <label>
+                            <input type="radio" name="radio">
+                            <span>classic</span>
+                        </label>
+                       </div>
+                       <div>
+                        <label>
+                            <input type="radio" name="radio">
+                            <span>premium</span>
+                        </label>
+                       </div>
+                       <div>
+                        <label>
+                            <input type="radio" name="radio">
+                            <span>expert</span>
+                        </label>
+                       </div>
+
+                   </div>
+               </div>
+
+            </div>
 
 
 
 
-           <h2>Algemene gegevens</h2>
 
-    <p >1&nbsp;Wintersportbestemming
-    <select name="1 wintersportbestemming">
-    <option> </option>
-    <option>Tignes (jan.)</option>
-    <option>Les Menuires (mrt.)</option>
-    <option>Tignes en Les Menuires</option></select>
-    </p>
+<!--opsturen-->
+              <div class="marginbottom">
+                 <button type="submit">Aanmelden</button>  <!--  <input type="submit" value="Aanmelden"> -->
 
+              </div>
 
-    <p >2&nbsp;Voor- en achternaam
-        <input type="text" size="30" maxlength="30" name="2 voor-,achternaam">
-    </p>
+              <div class="wisalles marginbottom">
+                <input type="reset" value="Alles wissen" name="B2" >  <!-- -->
+              </div>
 
-    <p >3&nbsp;man/vrouw
-    <select name="3 m/vr">
-    <option></option>
-    <option>man</option>
-    <option>vrouw</option></select>
-    </p>
+              <div class="lager">
+                <p >Hartelijk dank voor uw aanmelding. U ontvangt zo spoedig mogelijk een bevestiging via de e-mail.</p>
 
-    <p >4&nbsp;Straat en huisnummer
-        <input type="text" size="30" maxlength="40" name="4 straat, nr.">
-    </p>
+              </div>
 
 
-    <p >5&nbsp;Postcode
-        <input size="10" maxlength="40" name="5 postcode"></p>
-
-    <p >6&nbsp;Woonplaats
-        <input size="31" maxlength="45" name="6 woonplaats"></p>
-
-    <p >7 &nbsp;Geboortedatum
-    <select name="7 geboortedatum">
-    <option>01</option>
-    <option>02</option>
-    <option>03</option>
-    <option>04</option>
-    <option>05</option>
-    <option>06</option>
-    <option>07</option>
-    <option>08</option>
-    <option>09</option>
-    <option>10</option>
-    <option>11</option>
-    <option>12</option>
-    <option>13</option>
-    <option>14</option>
-    <option>15</option>
-    <option>16</option>
-    <option>17</option>
-    <option>18</option>
-    <option>19</option>
-    <option>20</option>
-    <option>21</option>
-    <option>22</option>
-    <option>23</option>
-    <option>24</option>
-    <option>25</option>
-    <option>26</option>
-    <option>27</option>
-    <option>28</option>
-    <option>29</option>
-    <option>30</option>
-    <option>31</option>
-    </select>
-    <select name="8 Geboortemaand">
-    <option>januari</option>
-    <option>februari</option>
-    <option>maart</option>
-    <option>april</option>
-    <option>mei</option>
-    <option>juni</option>
-    <option>juli</option>
-    <option>augustus</option>
-    <option>september</option>
-    <option>oktober</option>
-    <option>november</option>
-    <option>december</option>
-    </select>
-    <select name="9 geboortejaar">
-    <option>jonger</option>
-    <option>1973</option>
-    <option>1972</option>
-    <option>1971</option>
-    <option>1970</option>
-    <option>1969</option>
-    <option>1968</option>
-    <option>1967</option>
-    <option>1966</option>
-    <option>1965</option>
-    <option>1964</option>
-    <option>1963</option>
-    <option>1962</option>
-    <option>1961</option>
-    <option>1960</option>
-    <option>1959</option>
-    <option>1958</option>
-    <option>1957</option>
-    <option>1956</option>
-    <option>1955</option>
-    <option>1954</option>
-    <option>1953</option>
-    <option>1952</option>
-    <option>1951</option>
-    <option>1950</option>
-    <option>1949</option>
-    <option>1948</option>
-    <option>1947</option>
-    <option>1946</option>
-    <option>1945</option>
-    <option>1944</option>
-    <option>1943</option>
-    <option>1942</option>
-    <option>1941</option>
-    <option>1940</option>
-    <option>1939</option>
-    <option>1938</option>
-    <option>1937</option>
-    <option>1936</option>
-    <option>1935</option>
-    <option>1934</option>
-    <option>1933</option>
-    </select>
-    </p>
-
-    <p >10&nbsp;E-mail
-    <input size="30" maxlength="40" name="10 e-mail">
-    </p>
-
-    <p >11&nbsp;Telefoon
-    <input type="text" size="30" maxlength="40" name="11 telefoonnr.">
-    </p>
-
-    <p >12&nbsp;Mobiel
-    <input type="text" size="30" maxlength="40" name="12 mobielnr."></p>
-
-    <p >13&nbsp;Telefoon thuisblijvers 1
-    <input type="text" size="30" maxlength="40" name="13 tel.thuisblijvers 1">
-    </p>
-
-    <p >14&nbsp;Telefoon thuisblijvers 2
-        <input type="text" size="30" maxlength="40" name="14 tel.thuisblijvers 2">
-    </p>
-
-    <p >15&nbsp;Toestaan om uw 06-.. nummer te gebruiken in alg.deeln.corresp.en e-mails.
-        <input type="checkbox" name="15 gebruik 06- tel.nr." value="ja">
-    </p>
-
-    <p >16&nbsp;Annuleringsverzekering
-    <select name="16 ann.verz.">
-    <option>geen</option>
-    <option>Tignes</option>
-    <option>Les Menuires</option>
-    <option>Tignes en Les Menuires</option></select>
-    </p>
-
-    <p >17&nbsp;Reisverzekering
-     <select name="17 reisverz.">
-    <option>geen</option>
-     <option>Tignes</option>
-    <option>Les Menuires</option>
-    <option>Tignes en Les Menuires</option></select>
-    </p>
-
-    <p >18&nbsp;Op- of uitstapplaats van bus of eigen vervoer
-        <select name="18 Op-/uitstapplaats bus">
-    <option></option>
-    <option>Zwolle (alleen opstap)</option>
-    <option>Amsterdam</option>
-    <option>Rotterdam</option>
-    <option>Utrecht</option>
-    <option>Eindhoven-Meerhoven</option>
-    <option>Bruchem 'De Lucht' A2</option>
-    <option>Maastricht </option>
-    <option>Eigen vervoer</option></select>
-    </p>
-
-    <p >19&nbsp;Voorkeur kamerindeling
-        <input type="text" size="50" maxlength="100" name="19 Kamerindelingswens">
-    </p>
-    <p>20&nbsp;Vragen over de reis, toelichting over dieet, gezondheid ed.
-    <textarea rows="6" name="20 Toelichtingen" cols="68"> </textarea></p>
-
-    <br><br><p></p>
-           <p>===============================================================================</p>
-    <h2>Skireis Tignes in Frankrijk<p size="3">&nbsp;&nbsp;&nbsp;22-31 januari 2016</p></h2>
-
-    <p >&nbsp;&nbsp;<u>Skipas</u> uitbreiding<p size="2">
-    <br><p >21 <input type="checkbox" name="21 7 dagen Tignes " value="ja" <p="" >&nbsp;7 dagen Tignes .
-    <br>22 <input type="checkbox" name="22 &nbsp;6 dagen Espace Killy." value="ja" <p="" >&nbsp;6 dagen Espace Killy
-    <br>23 <input type="checkbox" name="23 &nbsp;7 dagen Espace Killy." value="ja" <p="" >&nbsp;7 dagen Espace Killy
-    <br>24 <input type="checkbox" name="24 &nbsp;Geen skipas nodig." value="ja" <p="" >&nbsp;Geen skipas nodig.
-    </p>&lt;</p></p><br>
-
-        <br>Senioren vanaf 75 jr. hebben recht op gratis skipas excl. administratiekosten .
-    Deze skipassen zijn alleen ter plaatse verkrijgbaar bij kassa van liftmaatschappij.
-    <br>
-
-    <br><p >&nbsp;&nbsp;<u>Ski-materiaal.</u>
-    <br><p >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <br>25 <select name="25 huur skimateriaal Tignes">
-    <option></option>
-    <option>Eigen skimateriaal</option>
-    <option>7 dg.carveski's </option>
-    <option>7 dg.carveski's / skischoenen</option></select>&nbsp;&nbsp;&nbsp;Huur ski's en/of skischoenen.
-    <br>26 <select name="26 kwaliteit skimateriaal Tignes">
-    <option></option>
-    <option>classic</option>
-    <option>premium</option>
-    <option>expert</option></select><p >&nbsp;Kwaliteit van het skimateriaal.
-    <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Huur snowboard- en/of langlaufmateriaal zijn op aanvraag verkrijgbaar.</p></p></p>
-    <br>
-
-           <p>===============================================================================</p>
-    <h2>Skireis Les Menuires in Frankrijk <p size="3">&nbsp;11-20 maart 2016</p></h2>
-
-    <p >&nbsp;&nbsp;<u>Skipas</u> uitbreiding<br>
-    <p >&nbsp;Geen seniorenkorting op de skipas.Vanaf 75 jaar is skipas gratis, afhalen bij de kassa, excl.adm.kosten)
-    <br> 7e dag is laatste zaterdag van de week.
-    <br><p >21 <input type="checkbox" name="21 6 dagen Tignes senior" value="ja" <p="" >&nbsp;6 dagen Tignes senior 65t/m75 jaar.
-    <br><p >21 <input type="checkbox" name="21 7 dagen Tignes " value="ja" <p="" >&nbsp;7 dagen Tignes
-    <br><p >21 <input type="checkbox" name="21 7 dagen Tignes senior" value="ja" <p="" >&nbsp;7 dagen Tigne senior 65t/m75 jaar.
-    <br>               22 <input type="checkbox" name="22 &nbsp;6 dagen Espace Killy." value="ja" <p="" >&nbsp;6 dagen Espace Killy
-    <br>               22 <input type="checkbox" name="22 &nbsp;6 dagen Espace Killy senior" value="ja" <p="" >&nbsp;6 dagen Espace Killy senior 65t/m75 jaar
-    <br>               23 <input type="checkbox" name="23 &nbsp;7 dagen Espace Killy." value="ja" <p="" >&nbsp;7 dagen Espace Killy
-    <br>               23 <input type="checkbox" name="23 &nbsp;7 dagen Espace Killy senior" value="ja" <p="" >&nbsp;7 dagen Espace Killy senior 65t/m75 jaar
-    <br>               24 <input type="checkbox" name="24 &nbsp;Geen skipas nodig." value="ja" <p="" >&nbsp;Geen skipas nodig.
-    </p></p></p></p></p>
-    p
-    <p >&nbsp;<u>Ski-materiaal.</u>
-    <br>
-    <p >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Huur ski's en/of skischoenen.
-    <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Skiverhuur is bij Intersport, 500m. van het hotel, nabij de skilift.
-    <br>25 <select name="25 huur skimateriaal">
-    <option></option>
-    <option>Eigen skimateriaal</option>
-    <option>7 dagen carveski's</option>
-    <option>7 dagen carveski's + skischoenen</option>
-    </select>&nbsp;Huur ski's en/of skischoenen.
-    <br>26 <select name="26 kwaliteit skimateriaal">
-    <option></option>
-    <option>classic</option>
-    <option>premium</option>
-    <option>expert</option></select>&nbsp;Kwaliteit van het skimateriaal.<br>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Huur snowboard- en/of langlaufmateriaal op aanvraag verkrijgbaar.</p></p>
-    <br>
 
 
-    <br>&nbsp;&nbsp;&nbsp;<input type="submit" value="Aanmelden">
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <input type="reset" value="Alles wissen" name="B2">
-    p<p >&nbsp;Hartelijk dank voor uw aanmelding. U ontvangt zo spoedig mogelijk een bevestiging via de e-mail.</p>
-    <br><br><p size="3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-    </div>
 
           </form>
 
-        </div>
+      </div>
 
 
 
-     </div>
+
 
   	  <footer>
         <ul>
-          <li>Webdesign en webdevelopment:<a target="_blank" href="https://nl.linkedin.com/in/mariansloot" title="Webdesign">Marian Sloot</a></li>
+          <li>Webdesign en realisatie:<a target="_blank" href="https://nl.linkedin.com/in/mariansloot" title="Webdesign">Marian Sloot</a></li>
           <li>Logo en illustraties:<a target="_blank" href="https://nl.linkedin.com/in/dangeerlings" title="Illustrator">Dan Geerlings</a></li>
         </ul>
-  	  </footer>
+      </footer>
   	</main>
 
   	<script>

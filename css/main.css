@@ -41,7 +41,7 @@
 
 logo kleuren:;
 #fff  wit   rgba(255, 255, 255, .5)     ffffff
-#aacffb lichtblauw
+#aacffb lichtblauw      rgba(170, 207, 251, 1)      #aacffb
 #4794df  middelblauw    rgba(71, 148, 223, .25)     4794df
 #21548e  donkerblauw    rgba(33, 84, 142, .25)      21548e
 
@@ -512,6 +512,9 @@ onderdelen met beeld
 
 
 
+
+
+
 /*
 .voorWie, .ervaringen, .reis1, .reis2 {
   margin-top: 0px;
@@ -719,7 +722,7 @@ td:last-of-type {
 
 .form-basic{
     max-width: 800px;
-   /*  margin: 0 10px;  */
+    margin: 0 10px;
     padding: 20px;
     box-sizing: border-box;
 
@@ -850,95 +853,27 @@ td:last-of-type {
 }
 
 
+ /*  reis boeken  */
+
+    .boeken {
+      padding-left: 10px;
+      max-width: 800px;
+    }
+
+  .beeldrechts {
+      padding-top: 5%;
+      padding-left: 20px;
+
+    }
+
+       .beeldlinks {
+      padding-top: 5%;
+      padding-right: 20px;
+
+    }
 
 
 
-
-/*-------------------------
-  Inline help tip
---------------------------*/
-
-
-.help-tip{
-  position: absolute;
-  top: 18px;
-  right: 18px;
-  text-align: center;
-  background-color: #BCDBEA;
-  border-radius: 50%;
-  width: 24px;
-  height: 24px;
-  font-size: 14px;
-  line-height: 26px;
-  cursor: default;
-}
-
-.help-tip:before{
-  content:'?';
-  font-weight: bold;
-  color:#fff;
-}
-
-.help-tip:hover p{
-  display:block;
-  transform-origin: 100% 0%;
-
-  -webkit-animation: fadeIn 0.3s ease-in-out;
-  animation: fadeIn 0.3s ease-in-out;
-
-}
-
-.help-tip p{
-  display: none;
-  text-align: left;
-  background-color: #1E2021;
-  padding: 20px;
-  width: 300px;
-  position: absolute;
-  border-radius: 3px;
-  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
-  right: -4px;
-  color: #FFF;
-  font-size: 13px;
-  line-height: 1.4;
-}
-
-.help-tip p:before{
-  position: absolute;
-  content: '';
-  width:0;
-  height: 0;
-  border:6px solid transparent;
-  border-bottom-color:#1E2021;
-  right:10px;
-  top:-12px;
-}
-
-.help-tip p:after{
-  width:100%;
-  height:40px;
-  content:'';
-  position: absolute;
-  top:-40px;
-  left:0;
-}
-
-@-webkit-keyframes fadeIn {
-  0% {
-    opacity:0;
-    transform: scale(0.6);
-  }
-
-  100% {
-    opacity:100%;
-    transform: scale(1);
-  }
-}
-
-@keyframes fadeIn {
-  0% { opacity:0; }
-  100% { opacity:100%; }
-}
 
 
 

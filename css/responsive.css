@@ -34,6 +34,14 @@
       padding-right: 5px;
       padding-left: 18px;
     }
+
+      /*  formulier  */
+
+       .form-basic{
+        padding: 10px;
+
+
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -48,48 +56,23 @@
         display: none;
       }
 
+      .beeldlinks {
+        display: none;
+      }
 
-/*  formulier  */
+      .beeldrechts {
+        display: none;
+      }
 
-
-    .form-basic{
+       .form-basic{
         padding: 10px;
-      /*   margin: 0 10px;  */
+        margin: 0px;
+
         max-width: 480px;
     }
 
-    .form-basic .form-row{
-        max-width: 300px;
-        margin: 25px auto;
-        text-align: left;
-    }
 
-    .form-basic .form-title-row{
-        margin-bottom: 50px;
-    }
 
-    .form-basic .form-row > label span{
-        display: block;
-        text-align: left;
-        padding: 0 0 10px;
-    }
-
-    .form-basic select{
-        width: 240px;
-    }
-
-    .form-basic input[type=checkbox]{
-        margin-top:0;
-    }
-
-    .form-basic .form-radio-buttons > div{
-        margin: 0 0 5px;
-    }
-
-  /*  .form-basic button{
-        margin: 0;
-    }
- */
 
 
 }
@@ -391,6 +374,53 @@
     }
 
 
+    /*  formulier  */
+
+       .form-basic{
+        padding: 10px;
+        margin: 0 10px;
+
+
+        max-width: 480px;
+    }
+
+    .form-basic .form-row{
+        max-width: 300px;
+        margin: 25px auto;
+        text-align: left;
+    }
+
+    .form-basic .form-title-row{
+        margin-bottom: 50px;
+    }
+
+    .form-basic .form-row > label span{
+        display: block;
+        text-align: left;
+        padding: 0 0 10px;
+    }
+
+    .form-basic select{
+        width: 240px;
+    }
+
+    .form-basic input[type=checkbox]{
+        margin-top:0;
+    }
+
+    .form-basic .form-radio-buttons > div{
+        margin: 0 0 5px;
+    }
+
+
+
+
+  /*  .form-basic button{
+        margin: 0;
+    }
+ */
+
+
 
 }
 
@@ -558,14 +588,48 @@
 
 
 
+    /* reis boeken  */
+
+   .boeken {
+      width: 100%;
+       display: flex;
+      flex-wrap: wrap;
+    }
+
+      .tekstlinks {
+       width: 85%;
+      order: 0;
+    }
 
 
 
 
+    .beeldrechts {
+       width: 15%;
+      order: 1;
+    }
 
+       .beeldlinks {
+      width: 15%;
+      order: 0;
+    }
 
+    .tekstrechts {
+      width: 85%;
+      order: 1;
+    }
 
 }
+
+
+
+
+
+
+
+
+
+
 
 @media screen and (min-width: 768px)  {
 
@@ -932,10 +996,45 @@
       padding-top: 30px;
     }
 
+
+
+
+
+ /* reis boeken  */
+
+    .boeken {
+      width: 100%;
+       display: flex;
+      flex-wrap: wrap;
+    }
+
+      .tekstlinks {
+       width: 85%;
+      order: 0;
+    }
+
+
+
+
+   .beeldrechts {
+       width: 15%;
+      order: 1;
+    }
+
+       .beeldlinks {
+      width: 15%;
+      order: 0;
+    }
+
+    .tekstrechts {
+      width: 85%;
+      order: 1;
+
+    }
+
+
+
 }
-
-
-
 
 
 

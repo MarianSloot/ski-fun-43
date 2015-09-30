@@ -37,11 +37,11 @@
 
       /*  formulier  */
 
-       .form-basic{
+       .form-basic, .form-ervaring{
         padding: 10px;
-
-
     }
+
+
 }
 
 @media screen and (max-width: 600px) {
@@ -70,6 +70,12 @@
 
         max-width: 480px;
     }
+
+
+
+    .form-ervaring textarea{
+    width: 280px;
+  }
 
 
 
@@ -398,6 +404,7 @@
         display: block;
         text-align: left;
         padding: 0 0 10px;
+        max-width: 260px;
     }
 
     .form-basic select{
@@ -411,6 +418,42 @@
     .form-basic .form-radio-buttons > div{
         margin: 0 0 5px;
     }
+
+    .form-basic input{
+    width: 260px;
+  }
+
+   .form-basic textarea {
+    width: 260px;
+  }
+
+    .form-ervaring{
+        padding: 10px;
+
+
+
+        max-width: 480px;
+    }
+
+
+  .form-ervaring .form-row  {
+     max-width: 300px;
+     padding: 0;
+
+        text-align: left;
+
+  }
+
+   .form-ervaring .form-row > label span{
+        display: block;
+        text-align: left;
+
+        max-width: 260px;
+    }
+
+    .form-basic textarea {
+    width: 380px;
+  }
 
 
 
@@ -590,7 +633,7 @@
 
     /* reis boeken  */
 
-   .boeken {
+   .tekstbeeldblok {
       width: 100%;
        display: flex;
       flex-wrap: wrap;
@@ -1002,7 +1045,7 @@
 
  /* reis boeken  */
 
-    .boeken {
+    .tekstbeeldblok {
       width: 100%;
        display: flex;
       flex-wrap: wrap;

@@ -309,8 +309,20 @@ h2 .skigebied {
 
 }
 
+.initiaal p::first-letter {
+   font-family: 'Varela Round';
+   font-weight: 700;
+   font-size: 24px;
+}
+
 .nowrap {
   white-space: nowrap;
+}
+
+.textwrap {
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 10px;
 }
 
 .paddingleft  {
@@ -719,6 +731,12 @@ td:last-of-type {
  *
  */
 
+.formulier {
+  /* margin-left: auto;
+  margin-right: auto; */
+  margin: 0 auto;
+  max-width: 800px;
+}
 
 .form-basic{
     max-width: 800px;
@@ -770,29 +788,54 @@ td:last-of-type {
     box-sizing: border-box;
     color: #5F5F5F;
     width: 300px;
-    font-weight: 700;
+    font-weight: 600;
     text-align: right;
     vertical-align: top;
     padding: 12px 25px;
+
+}
+
+.form-basic .form-radio-buttons {
+  margin-top: 3px;
+  margin-left: 10px;
+}
+
+.form-basic .form-radio-buttons label span {
+  font-size: 14px;
+}
+
+.form-basic .form-checkbox  {
+  font-size: 15px;
+  padding: 0 5px;
+
 }
 
 .form-basic input{
     color:  #5f5f5f;
     box-sizing: border-box;
-    width: 280px;
+    width: 320px;
     box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.08);
     padding: 12px;
     border: 1px solid #dbdbdb;
+
 }
 
-.form-basic input[type=radio],
-.form-basic input[type=checkbox]{
+.form-basic input[type="radio"],
+.form-basic input[type="checkbox"]{
+
     box-shadow: none;
     width: auto;
+    font-size: 12px;
+
 }
 
-.form-basic input[type=checkbox]{
+.form-basic input[type="checkbox"]{
     margin-top: 13px;
+
+}
+
+.form-basic input[type="text"] {
+
 }
 
 .form-basic select{
@@ -808,10 +851,10 @@ td:last-of-type {
 .form-basic textarea{
     color:  #5f5f5f;
     box-sizing: border-box;
-    width: 280px;
-    height: 150px;
+    width: 320px;
+    height: 200px;
     box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.08);
-    font: normal 13px sans-serif;
+    font-size: 14px;
     padding: 12px;
     border: 1px solid #dbdbdb;
     resize: vertical;
@@ -848,16 +891,36 @@ td:last-of-type {
     margin: 40px auto 0;
 }
 
-.form-basic .wisalles input {
+.form-basic .wisalles input{
+    color:  #5f5f5f;
+    box-sizing: border-box;
     width: 120px;
+    box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.08);
+    padding: 12px;
+    border: 1px solid #dbdbdb;
 }
 
+.form-basic .wisalles button{
+   display: block;
+    border-radius: 2px;
+    background-color:  #aaaaaa;
+color: #ffffff;
+    font-weight: bold;
+    box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.08);
+    padding: 14px 22px;
+    border: 0;
+    margin: 40px auto 0;
+}
 
  /*  reis boeken  */
 
-    .boeken {
+    .tekstbeeldblok {
       padding-left: 10px;
       max-width: 800px;
+    }
+
+    .tekstbeeldblok h5 {
+      font-size: 16px;
     }
 
   .beeldrechts {
@@ -871,6 +934,116 @@ td:last-of-type {
       padding-right: 20px;
 
     }
+
+
+
+    /*  ervaringen */
+
+
+    .tekstbeeldblok h4 {
+      color: #4794df;
+    }
+
+
+
+    .form-ervaring {
+  max-width: 500px;
+  box-sizing: border-box;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+  background-color: rgba(71, 148, 223, .25) ;
+  text-align: center;
+  padding:10px;
+
+}
+
+.form-ervaring .form-row {
+    text-align: left;
+   /* margin-bottom: 15px;  */
+}
+
+.form-ervaring .form-row > label span{
+    display: block;
+    box-sizing: border-box;
+    color: #5F5F5F;
+    width: 200px;
+    font-weight: 600;
+    text-align: left;
+    vertical-align: top;
+    padding: 12px 0px;
+
+}
+
+.form-ervaring textarea {
+    color:  #5f5f5f;
+    box-sizing: border-box;
+    width: 380px;
+    height: 200px;
+    box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.08);
+    font-size: 14px;
+    margin-top: 12px;
+
+    padding: 12px;
+    border: 1px solid #dbdbdb;
+    resize: vertical;
+}
+
+.form-ervaring button{
+    display: inline-block;
+    border-radius: 2px;
+    background-color:  #4794df;
+    color: #ffffff;
+    font-weight: bold;
+    box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.08);
+    padding: 14px 10px;
+    border: 0;
+    margin: 15px 15px 0 0 ;
+}
+
+.form-basic button:hover, .form-ervaring button:hover {
+    color: #000000;
+
+}
+
+.form-ervaring button.wisalles:hover {
+  color: #000000;
+}
+
+.form-basic button:active, .form-ervaring button:active {
+    color: #000000;
+
+}
+
+.form-ervaring button.wisalles:active {
+  color: #000000;
+}
+
+
+
+
+/* .form-ervaring .wisalles input{
+    color:  #5f5f5f;
+    box-sizing: border-box;
+    width: 120px;
+    box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.08);
+    padding: 12px;
+    border: 1px solid #dbdbdb;
+}
+*/
+
+.form-ervaring button.wisalles {
+    display: inline-block;
+    border-radius: 2px;
+    background-color:  #aaaaaa;
+    color: #ffffff;
+    font-weight: bold;
+    box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.08);
+    padding: 14px 22px;
+    border: 0;
+    margin: 0px auto 0;
+}
+
+
+
 
 
 

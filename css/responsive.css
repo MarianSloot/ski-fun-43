@@ -64,6 +64,13 @@
         display: none;
       }
 
+        .beeldrechtsachter  {
+        display: none;
+      }
+
+
+
+
        .form-basic{
         padding: 10px;
         margin: 0px;
@@ -633,6 +640,8 @@
 
     /* reis boeken  */
 
+
+
    .tekstbeeldblok {
       width: 100%;
        display: flex;
@@ -663,6 +672,11 @@
     }
 
 }
+
+.beeldrechtsachter {
+      width: 20%;
+      order: 1;
+    }
 
 
 
@@ -1072,6 +1086,29 @@
     .tekstrechts {
       width: 85%;
       order: 1;
+
+    }
+
+    .formcontainer {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .formulier {
+      width: 80%;
+      order: 0;
+    }
+
+  .beeldrechtsachter {
+      width: 15%;
+      order: 1;
+
+      background-image: url(../images/Sneeuwbal.png);
+      background-attachment: scroll;
+      background-repeat: no-repeat;
+      background-position: bottom left;
+      background-size: 100%;
 
     }
 

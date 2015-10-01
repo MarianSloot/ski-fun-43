@@ -431,7 +431,7 @@ h2 .skigebied {
   padding: 1.5em;
 }
 
-.nav a:hover {
+.nav a:hover, .nav a:active {
   text-decoration: underline;
   color: #fff;
 }
@@ -567,6 +567,10 @@ onderdelen met beeld
   color: #21548e;
 }
 
+.verder a:active, .reis__tekst a:active, .skigebied a:active, .transfer a:active {
+  color: #21548e;
+}
+
 /* modal */
 
 .modalDialog {
@@ -621,7 +625,8 @@ onderdelen met beeld
   box-shadow: 1px 1px 3px #000;
 }
 
-.close:hover { background: #00d9ff; }
+.close:hover, .close:active { background: #00d9ff; }
+
 
 .close a {
   color: #ffffff;
@@ -1080,4 +1085,8 @@ footer a {
 
 footer a:hover {
   text-decoration: underline;
+}
+
+footer a:active {
+  color: #000000;
 }

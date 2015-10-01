@@ -74,7 +74,7 @@
 
 
     .form-ervaring textarea{
-    width: 280px;
+    width: 240px;
   }
 
 
@@ -451,8 +451,8 @@
         max-width: 260px;
     }
 
-    .form-basic textarea {
-    width: 380px;
+    .form-ervaring textarea {
+    width: 280px;
   }
 
 

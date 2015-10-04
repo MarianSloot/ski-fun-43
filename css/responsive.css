@@ -518,13 +518,6 @@
       order: 1;
      }
 
-/*
-     .tweeInEen {
-      display: flex;
-      flex-wrap: wrap;
-      width: 100%;
-      order: 1;
-     }  */
 
      .ligging {
       width: 80%;
@@ -532,23 +525,14 @@
      }
 
 
-
-
-
-
       .groep2 {
       width: 80%;
      }
-
-
-
-
 
      .groep3 {
       width: 80%;
       margin-left: 60px;
      }
-
 
 
      .groep4 {
@@ -578,7 +562,6 @@
     }
 
     .skihuur {
-
       width: 80%:;
       order: 0;
     }
@@ -589,13 +572,11 @@
       order: 1;
     }
 
-
       .groep6 {
       width: 90%;
       display: flex;
       flex-wrap: wrap;
     }
-
 
     .toeslag {
       margin-right: 0px;
@@ -603,15 +584,11 @@
       order: 0;
     }
 
-
-
     .reductie{
       margin-right: 10px;
       width: 40%;
       order: 0;
     }
-
-
 
     .extrakosten {
       margin-right: 0px;
@@ -622,7 +599,6 @@
     .reductie .geenTabel td {
       display: block;
       padding-right: 10px;
-    /*  white-space: nowrap; */
     }
 
     .reductie .lijnOnder {
@@ -633,7 +609,6 @@
     .extrakosten .geenTabel td {
        display: block;
       padding-right: 0px;
-    /*  white-space: nowrap; */
     }
 
 
@@ -654,8 +629,6 @@
     }
 
 
-
-
     .beeldrechts {
        width: 15%;
       order: 1;
@@ -671,15 +644,13 @@
       order: 1;
     }
 
-}
 
 .beeldrechtsachter {
       width: 20%;
       order: 1;
     }
 
-
-
+}
 
 
 
@@ -796,8 +767,6 @@
 
  max-width: 100%;
     width: 100%;
-
-
      display: flex;
     flex-wrap: wrap;
     order: -1;
@@ -811,14 +780,6 @@
     order: 0;
     width: 70%;
   }
-
- /* .beeldBoven {
-    order: 1;
-    width: 30%;
-    padding-top: 10px;
-  }  */
-
-
 
 
    .reis2 .vlakLinks  {
@@ -882,14 +843,6 @@
     }
 
 
-
-
-
-
-
-
-
-
     .groep2 {
       width: 100%;
       display: flex;
@@ -925,7 +878,6 @@
 
 
 
-
     .groep3 {
       width: 100%;
       display: flex;
@@ -948,7 +900,6 @@
     .letop .beeld{
       width: 100%;
     }
-
 
     .letop .beeld img{
       float: right;
@@ -1019,15 +970,12 @@
       order: 1;
     }
 
-
-
     .groep6 {
       width: 70%;
       margin-left: 0px;
       display: flex;
       flex-wrap: wrap;
     }
-
 
     .toeslag {
       margin-right: 5px;
@@ -1070,9 +1018,6 @@
       order: 0;
     }
 
-
-
-
    .beeldrechts {
        width: 15%;
       order: 1;
@@ -1103,13 +1048,11 @@
   .beeldrechtsachter {
       width: 15%;
       order: 1;
-
       background-image: url(../images/Sneeuwbal.png);
       background-attachment: scroll;
       background-repeat: no-repeat;
       background-position: bottom left;
       background-size: 100%;
-
     }
 
 
@@ -1159,8 +1102,6 @@
 
    .groep1 {
       width: 50%;
-    /*  margin-left: 50px;  */
-
       display: flex;
       flex-wrap: wrap;
     }
@@ -1171,13 +1112,6 @@
       margin-bottom: 30px;
       order: 0;
     }
-
-  /*   .tweeInEen {
-      display: flex;
-      flex-wrap: wrap;
-      width: 100%;
-      order: 1;
-     }  */
 
      .ligging {
       margin-left: 20px;
@@ -1215,7 +1149,6 @@
       order: 1;
     }
 
-
     .kamers {
       margin-right: 10px;
       width: 22%;
@@ -1229,7 +1162,6 @@
       order: 1;
       order: 3;
     }
-
 
     .groep3 {
       width: 100%;
@@ -1273,14 +1205,11 @@
       order: 1;
     }
 
-
-
     .groep6 {
       width: 100%;
       display: flex;
       flex-wrap: wrap;
     }
-
 
     .toeslag {
       margin-right: 0px;
@@ -1305,8 +1234,6 @@
       order: 4;
       padding-top: 150px;
     }
-
-
 
     .groep7 {
       max-width: 800px;
@@ -1337,12 +1264,7 @@
   }
 
   .header__logo {
-   /* margin-top: 6%;    /*50px; */
     padding-left: 10%;
-   }
-
-
-   /* padding-left: 140px;  */
    }
 
    .reis__hoofdkop {

@@ -21,7 +21,8 @@
 
 @media screen and (max-width: 400px) {
   .reis__hoofdkop {
-    margin-top: 6% ;
+    /* margin-top: 6% ;  */
+    margin-top: 3em;
    }
 
    .geenTabel td {
@@ -34,6 +35,23 @@
       padding-right: 5px;
       padding-left: 18px;
     }
+
+    .geenTabelMinus td {
+      display: inline-block;
+      padding-right: 5px;
+      padding-left: 18px;
+    }
+
+    .geenTabelMinus td:first-of-type {
+      display: block;
+      padding-left: 0px;
+    }
+
+    .geenTabelMinus td:last-of-type {
+      padding-left: 0px;
+    }
+
+
 
       /*  formulier  */
 
@@ -166,7 +184,7 @@
  .reis__hoofdkop {
      order: -1;
      width: 100%;
-     margin-top: 12%;
+     margin-top: 3em;
  }
 
  .condensed {
@@ -484,7 +502,8 @@
   }
 
   .reis__hoofdkop {
-     margin-top: 15%;
+    /* margin-top: 15%;  */
+    margin-top: 6em;
  }
 
 
@@ -676,7 +695,8 @@
   }
 
   .reis__hoofdkop {
-    margin-top: 10%;
+   /* margin-top: 10%; */
+   margin-top: 5em;
   }
 
 
@@ -1072,7 +1092,8 @@
   }
 
   .reis__hoofdkop {
-    margin-top: 15%;
+   /* margin-top: 15%;  */
+   margin-top: 7em;
   }
 
   .skigebied h2 {
@@ -1268,7 +1289,8 @@
    }
 
    .reis__hoofdkop {
-    margin-top: 11%;
+   /* margin-top: 11%; */
+   margin-top: 8em;
    }
 
 }
@@ -1280,7 +1302,9 @@
    }
 
     .reis__hoofdkop {
-    margin-top: 25%;
+    /* margin-top: 25%;  */
+    margin-top: 9em;
+
    }
 }
 
